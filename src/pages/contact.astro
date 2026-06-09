@@ -1,0 +1,59 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Contact Us — Baolu Tech">
+  <section class="hero-gradient pt-32 pb-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 class="text-4xl font-bold text-white">Contact Us</h1>
+      <p class="mt-4 text-baolu-light/70 max-w-2xl">Get in touch with our sales team for inquiries, quotes, and technical support.</p>
+    </div>
+  </section>
+  <section class="py-16 bg-baolu-dark">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div>
+          <h2 class="text-2xl font-bold text-white mb-6">Send Us a Message</h2>
+          <form class="space-y-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <input type="text" placeholder="Your Name *" required class="w-full px-4 py-3 rounded-lg bg-baolu-navy border border-baolu-blue/20 text-white placeholder-baolu-gray focus:outline-none focus:border-baolu-accent"/>
+              <input type="text" placeholder="Company Name" class="w-full px-4 py-3 rounded-lg bg-baolu-navy border border-baolu-blue/20 text-white placeholder-baolu-gray focus:outline-none focus:border-baolu-accent"/>
+            </div>
+            <input type="email" placeholder="Email *" required class="w-full px-4 py-3 rounded-lg bg-baolu-navy border border-baolu-blue/20 text-white placeholder-baolu-gray focus:outline-none focus:border-baolu-accent"/>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <input type="tel" placeholder="Phone / WhatsApp" class="w-full px-4 py-3 rounded-lg bg-baolu-navy border border-baolu-blue/20 text-white placeholder-baolu-gray focus:outline-none focus:border-baolu-accent"/>
+              <input type="text" placeholder="Country *" required class="w-full px-4 py-3 rounded-lg bg-baolu-navy border border-baolu-blue/20 text-white placeholder-baolu-gray focus:outline-none focus:border-baolu-accent"/>
+            </div>
+            <select class="w-full px-4 py-3 rounded-lg bg-baolu-navy border border-baolu-blue/20 text-baolu-gray focus:outline-none focus:border-baolu-accent">
+              <option value="">Product of Interest</option>
+              <option>Radar Systems</option>
+              <option>Countermeasure Systems</option>
+              <option>Spectrum Detection</option>
+              <option>Individual Gear</option>
+              <option>Integrated Solutions</option>
+            </select>
+            <textarea rows="4" placeholder="Your Message *" required class="w-full px-4 py-3 rounded-lg bg-baolu-navy border border-baolu-blue/20 text-white placeholder-baolu-gray focus:outline-none focus:border-baolu-accent"></textarea>
+            <button type="submit" class="w-full px-6 py-3 rounded-lg bg-baolu-accent text-white font-semibold hover:bg-baolu-accent/90 transition-colors">Submit Inquiry</button>
+          </form>
+        </div>
+        <div>
+          <h2 class="text-2xl font-bold text-white mb-6">Contact Information</h2>
+          <div class="space-y-6">
+            <div>
+              <h4 class="text-sm font-semibold text-baolu-accent mb-1">Email</h4>
+              <p class="text-baolu-gray">info@baolu-tech.com</p>
+            </div>
+            <div>
+              <h4 class="text-sm font-semibold text-baolu-accent mb-1">Phone</h4>
+              <p class="text-baolu-gray">+86-531-xxxxxxx</p>
+            </div>
+            <div>
+              <h4 class="text-sm font-semibold text-baolu-accent mb-1">Address</h4>
+              <p class="text-baolu-gray">Jinan, Shandong, China</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
