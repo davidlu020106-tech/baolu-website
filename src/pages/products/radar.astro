@@ -1,22 +1,1093 @@
 ---
-import Layout from '../../layouts/Layout.astro';
+import Layout from "../../layouts/Layout.astro";
+import ProductCard from "../../components/ProductCard.astro";
+import SectionHeader from "../../components/SectionHeader.astro";
 ---
-
 <Layout title="Radar Systems — Baolu Tech">
   <section class="hero-gradient pt-32 pb-16">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <nav class="text-sm text-baolu-gray mb-4"><a href="/" class="hover:text-baolu-accent">Home</a> / <a href="/products" class="hover:text-baolu-accent">Products</a> / <span class="text-baolu-light">Radar Systems</span></nav>
       <h1 class="text-4xl font-bold text-white">Radar Systems</h1>
-      <p class="mt-4 text-baolu-light/70 max-w-2xl">Low-altitude surveillance and ground surveillance radars with phased array technology for comprehensive airspace security.</p>
+      <p class="mt-4 text-baolu-light/70 max-w-3xl">Comprehensive radar portfolio covering low-altitude surveillance, ground surveillance, and maritime surveillance — from compact portable radars to long-range phased array systems.</p>
     </div>
   </section>
   <section class="py-16 bg-baolu-dark">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-12">
-        <p class="text-baolu-gray">Product specifications coming soon. Contact us for detailed information on our radar product line.</p>
+      <SectionHeader title="Low-Altitude Surveillance Radars" subtitle="Airspace monitoring for drones, aircraft, and bird detection" />
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+        <ProductCard name="BWR-T20低空监视雷达" description="BWR-T20型低空监视雷达是一款具备空地一体探测能力的三坐标雷达。该雷达可快速检测并持续跟踪无人机、飞机、鸟类等目标，同时兼顾地面人、车目标与水面船只目标的监测。该雷达运用同时多波束技术以及高性能信号处理技术，使其能够在复杂、密集的多目标环境中，快速且精确地获取目标的位置与运动状态。雷达采用连续波工作体制，发射功率较低，与脉冲体制相比，显著提升了抗电磁截获性能。在协同探测体系中，该雷达可作为核心" specs={`工作频段：
+X波段
+空间覆盖：
+俯仰：-5°～60°|方位：360°|量程：20km|盲区：50m|高度：3000m
+探测威力：
+小型旋翼无人机(RCS=0.01m2)：≥10km|中型固定翼无人机(RCS=1m2)：≥20km|人员：≥15km|直升机、车辆：≥20km
+测量精度：
+距离：≤5m(RMS)|方位角度/俯仰角度：≤0.3°（RMS）
+天线转速：
+20rpm(3s)/30rpm(2s)/60rpm(1s)（可升级）
+同时跟踪目标数量：
+≥500批
+跟踪速度：
+1m/s～150m/s
+供电：
+DC36～52V(配AC220V-DC48V适配器）
+通讯：
+千兆以太网航插
+功耗：
+≤400W
+工作温度及湿度：
+-40℃～+55℃/≯90%
+防护等级：
+IP66（主机IP67）
+重量：
+25Kg（主机）
+尺寸：
+655mm*820mm*120mm（主机）
+应用场景
+港口航道
+边境安防
+渔港监控
+桥梁监控
+油田周界安防监控系统
+机场周界入侵监控系统`} source="bonway-tech.net" />
+        <ProductCard name="BWR-A15低空监视雷达" description="BWR-A15型低空监视雷达，是一款二维有源相控阵三坐标雷达。该雷达可快速检测并持续跟踪无人机、飞机、鸟类等目标，同时兼顾地面人、车目标与水面船只目标的监测，同时运用智能波束调度以及高性能信号处理技术，使其能够在复杂、密集的多目标环境中，快速且精确地获取目标的位置与运动状态。在协同探测体系中，该雷达可作为核心感知单元，为其他传感器（如光电设备、驱鸟设备）提供高精度目标数据，实现精准引导。该雷达可广" specs={`工作频段：X波段
+空间覆盖：俯仰覆盖范围：-2°～ 45°|方位：360°|盲区≤150m|高度：2000m
+探测威力：小型无人机（RCS=0.01㎡，精灵4）：≥8km|中型无人机（RCS=1㎡）：≥15km|车辆、直升机（RCS=5㎡）：≥15km
+测量精度：测距精度：≤10m|测速精度：≤0.5m/s|测角精度：≤0.5°（方位），≤0.5°（俯仰）
+同时跟踪目标数：≥500批
+目标刷新率：2.5s（TWS）、0.25s（TAS，8个目标）
+防护等级：IP66（雷达主机IP67）
+功耗：≤3.2kW
+供电：AC 220/16A
+工作温度及湿度：-40℃～+55℃/≤90%
+重量：140Kg
+尺寸：971mm*971mm*661mm
+应用场景
+港口航道
+边境安防
+渔港监控
+桥梁监控
+油田周界安防监控系统
+机场周界入侵监控系统`} source="bonway-tech.net" />
+        <ProductCard name="BWR-T18低空监视雷达" description="BWR-T18型低空监视雷达是一款具备空地一体探测能力的三坐标雷达。该雷达可快速检测并持续跟踪无人机、飞机、鸟类等目标，同时兼顾地面人、车目标与水面船只目标的监测。该雷达运用同时多波束技术以及高性能信号处理技术，使其能够在复杂、密集的多目标环境中，快速且精确地获取目标的位置与运动状态。雷达采用连续波工作体制，发射功率较低，与脉冲体制相比，显著提升了抗电磁截获性能。在协同探测体系中，该雷达可作为核心" specs={`工作频段：
+X波段
+空间覆盖：
+俯仰：-4°～60°|方位：360°|量程：15km|盲区：50m|高度：2000m
+探测威力：
+小型旋翼无人机(RCS=0.01m2)：≥8km|中型固定翼无人机(RCS=1m2)：≥15km|人员：≥14km|直升机、车辆：≥15km
+测量精度：
+距离：≤5m(RMS)|方位角度/俯仰角度：≤0.4°（RMS）
+天线转速：
+20rpm(3s)/30rpm(2s)/60rpm(1s)（可升级）
+同时跟踪目标数量：
+≥300批
+跟踪速度：
+1m/s～150m/s
+供电：
+DC36～52V(配AC220V-DC48V适配器）
+通讯：
+千兆以太网航插
+功耗：
+≤330W
+工作温度及湿度：
+-40℃～+55℃/≯90%
+防护等级：
+IP66（主机IP67）
+重量：
+19Kg（主机）
+尺寸：
+655mm*680mm*115mm（主机）
+应用场景
+港口航道
+边境安防
+渔港监控
+桥梁监控
+油田周界安防监控系统
+机场周界入侵监控系统`} source="bonway-tech.net" />
+        <ProductCard name="BWR-T10低空监视雷达" description="BWR-T10型低空监视雷达是一款具备空地一体探测能力的三坐标雷达。该雷达可快速检测并持续跟踪无人机、飞机、鸟类等目标，同时兼顾地面人、车目标与水面船只目标的监测。该雷达运用同时多波束技术以及高性能信号处理技术，使其能够在复杂、密集的多目标环境中，快速且精确地获取目标的位置与运动状态。雷达采用连续波工作体制，发射功率较低，与脉冲体制相比，显著提升了抗电磁截获性能。在协同探测体系中，该雷达可作为核心" specs={`工作频段：
+X波段
+空间覆盖：
+俯仰：-5°～40°|方位：360°|量程：10km|盲区：50m|高度：1000m
+探测威力：
+小型旋翼无人机(RCS=0.01m2)：≥5km|中型固定翼无人机(RCS=1m2)：≥10km|人员：≥8km|直升机、车辆：≥10km
+测量精度：
+距离：≤5m(RMS) 方位角度/俯仰角度：≤0.4°（RMS）
+天线转速：
+20rpm(3s)/30rpm(2s)/60rpm(1s)（可升级）
+同时跟踪目标数量：
+≥200批
+跟踪速度：
+1m/s～150m/s
+供电：
+DC36～52V(配AC220V-DC48V适配器）
+通讯：
+千兆以太网航插
+功耗：
+≤260W
+工作温度及湿度：
+-40℃～+55℃/≯90%
+防护等级：
+IP66（主机IP67）
+重量：
+15Kg（主机）
+尺寸：
+600mm*505mm*100mm（主机）
+应用场景
+港口航道
+边境安防
+渔港监控
+桥梁监控
+油田周界安防监控系统
+机场周界入侵监控系统`} source="bonway-tech.net" />
+        <ProductCard name="BWR-T02低空监视雷达" description="BWR-T02型低空监视雷达是一款具备空地一体探测能力的三坐标雷达。该雷达可快速检测并持续跟踪无人机、飞机、鸟类等目标，同时兼顾地面人、车目标与水面船只目标的监测。该雷达运用同时多波束技术以及高性能信号处理技术，使其能够在复杂、密集的多目标环境中，快速且精确地获取目标的位置与运动状态。雷达采用连续波工作体制，发射功率较低，与脉冲体制相比，显著提升了抗电磁截获性能。在协同探测体系中，该雷达可作为核心" specs={`工作频段：
+Ku波段
+空间覆盖：
+俯仰：-5°～60°|方位：360°|量程：3.5km|盲区：50m|高度：600m
+探测威力：
+小型旋翼无人机(RCS=0.01m2)：≥1.5km|中型固定翼无人机(RCS=1m2)：≥3.5km|人员：≥2.5km|直升机、车辆：≥3.5km
+测量精度：
+距离：≤5m(RMS)|方位角度/俯仰角度：≤0.4°（RMS）
+天线转速：
+20rpm(3s)/30rpm(2s)/60rpm(1s)（可升级）
+同时跟踪目标数量：
+≥100批
+跟踪速度：
+1m/s～100m/s
+供电：
+DC18～28V(配AC220V-DC24V适配器）
+通讯：
+千兆以太网航插
+功耗：
+≤120W
+工作温度及湿度：
+-40℃～+55℃/≯90%
+防护等级：
+IP66（主机IP67）
+重量：
+9Kg（主机）
+尺寸：
+460mm*360mm*95mm（主机）
+应用场景
+港口航道
+边境安防
+渔港监控
+桥梁监控
+油田周界安防监控系统
+机场周界入侵监控系统`} source="bonway-tech.net" />
+        <ProductCard name="XW/SR226-6000XD玄武系列-低空安防雷达" description="应用领域：用于边境、机场、军事基地等重点区域内低空飞行的无人机、飞行器的探测、警戒和目标指示，能够准确的给出目标的方位、距离、高度和速度等航迹信息" specs={`工作体制：二维相控阵体制(方位相扫+俯仰相扫)
+产品组成：由4个天线阵面和1个控制箱组成
+应用领域：用于边境、机场、军事基地等重点区域内低空飞行的无人机、飞行器的探测、警戒和目标指示，能够准确的给出目标的方位、距离、高度和速度等航迹信息
+所属分类：
+玄武系列-低空安防雷达
+无人机
+400-808-1878
+027-65520251
+产品咨询
+相关推荐
+产品描述
+产品特点
+产品指标
+产品尺寸
+探测距离
+商品名称:
+工作频段:
+X波段
+无人机:
+5.0 km
+工作体制:
+二维相控阵体制（方位相扫+俯仰相扫）
+量程:
+6.0km
+有效探测威力:
+≥ 5km  (RCS=0.01㎡)
+方位覆盖:
+≥ 360°
+仰角覆盖:
+≥ 60°
+探测速度:
+1m/s～100m/s
+方位精度:
+≤ 0.5°
+俯仰精度:
+≤ 0.5°
+距离精度:
+≤ 8m
+数据率:
+≤ 4s
+数据接口:
+RJ45， UDP协议百兆以太网
+电源输入:
+AC200-AC240
+工作温度:
+-40℃～+55℃
+重量:
+≤40kg
+无人机：≥ 5km (RCS=0.01㎡)
+工作体制：二维相控阵体制(方位相扫+俯仰相扫)
+产品组成：`} source="radardo.com" />
+        <ProductCard name="XW/SR226-10000XPM玄武系列-低空安防雷达" description="应用领域：主要用于边境、机场、基地等重点区域内低空飞行的无人机、飞行器的探测、警戒和目标指示，能够准确的给出目标的方位、距离、高度和速度等航迹信息。" specs={`工作体制：相控阵体制（方位机扫+俯仰相扫）
+产品组成：由2个雷达阵面、1个转台组成
+应用领域：主要用于边境、机场、基地等重点区域内低空飞行的无人机、飞行器的探测、警戒和目标指示，能够准确的给出目标的方位、距离、高度和速度等航迹信息。
+所属分类：
+玄武系列-低空安防雷达
+无人机
+400-808-1878
+027-65520251
+产品咨询
+相关推荐
+产品描述
+产品特点
+产品指标
+产品尺寸
+探测距离
+商品名称:
+工作频段:
+X波段
+无人机:
+7.0 km
+工作体制:
+相控阵体制（方位机扫+俯仰相扫）
+工作频段:
+X波段
+量程:
+≥10.0km
+方位覆盖:
+≥360°
+仰角覆盖:
+≥40°
+探测速度:
+1.0m/s～75m/s
+方位精度:
+≤ 0.4°
+俯仰精度:
+≤ 0.5°
+距离精度:
+≤ 0.5m/s
+数据率:
+≥1Hz  （天线转速：≥30rpm）
+数据接口:
+RJ45， UDP协议百兆以太网
+电源输入:
+≤1000W（功耗）AC200V-AC240V
+工作温度:
+-40℃～+55℃
+重量:
+≤135kg
+无人机：≥7.0km（RCS=0.01m²）
+工作体制：相控阵体制（方位机扫+`} source="radardo.com" />
+        <ProductCard name="XW/SR226-5000SA玄武系列-低空安防雷达" description="应用领域：主要用于监狱、展会、基地等重点区域内微型/小型民用无人机的探测、警戒和目标指示，能够准确的给出目标的方位、距离、高度和速度等航迹信息。" specs={`工作体制：相控阵体制（三坐标）/脉冲多普勒
+产品组成：由1个雷达阵面、1个机械转台和1个电源适配器组成
+应用领域：主要用于监狱、展会、基地等重点区域内微型/小型民用无人机的探测、警戒和目标指示，能够准确的给出目标的方位、距离、高度和速度等航迹信息。
+所属分类：
+玄武系列-低空安防雷达
+无人机
+400-808-1878
+027-65520251
+产品咨询
+相关推荐
+产品描述
+产品特点
+产品指标
+产品尺寸
+探测距离
+商品名称:
+工作频段:
+S波段
+无人机:
+25.0km
+工作体制:
+相控阵体制（三坐标）/脉冲多普勒
+工作频段:
+S波段
+量程:
+≥30km
+有效探测威力:
+≥5.0km（RCS=0.01㎡）；≥25km（RCS=10㎡）
+方位覆盖:
+360°
+仰角覆盖:
+≥40°
+探测速度:
+1.8km/h~108km/h
+方位精度:
+≤ 0.8°
+俯仰精度:
+≤ 1°
+距离精度:
+≤ 8m
+数据率:
+≥0.2Hz
+数据接口:
+RJ45/1路百兆以太网
+电源输入:
+≤1500W(功耗) AC200~AC240
+工作温度:
+-40℃～+55℃
+重量:
+≤100kg（整机）
+无人机：≥5.0km`} source="radardo.com" />
+        <ProductCard name="XW/SR226-6000XP玄武系列-低空安防雷达" description="应用领域：主要用于边境、周界、机场、基地等重点区域内微型/小型民用无人机的探测、警戒和目标指示，能够准确的给出目标的方位、距离、高度和速度等航迹信息。" specs={`工作体制：相控阵体制（方位机扫+俯仰相扫）/脉冲多普勒
+产品组成：由1个雷达阵面、1个机械转台和1个电源适配器组成
+应用领域：主要用于边境、周界、机场、基地等重点区域内微型/小型民用无人机的探测、警戒和目标指示，能够准确的给出目标的方位、距离、高度和速度等航迹信息。
+10 km
+8.0 km
+所属分类：
+玄武系列-低空安防雷达
+人 | 车
+无人机
+400-808-1878
+027-65520251
+产品咨询
+相关推荐
+产品描述
+产品特点
+产品指标
+产品尺寸
+探测距离
+商品名称:
+工作频段:
+X波段
+行人:
+8.0 km
+车辆:
+10 km
+船只:
+15km
+无人机:
+5.0 km
+工作体制:
+相控阵体制（方位机扫+俯仰相扫）/脉冲多普勒
+工作频段:
+X波段
+量程:
+6km
+有效探测威力:
+100m～5.0km（RCS=0.01m2,,大疆精灵4）
+方位覆盖:
+360°
+仰角覆盖:
+40°
+探测速度:
+0.5m/s～75m/s
+方位精度:
+≤0.4°
+俯仰精度:
+≤0.5°
+距离精度:
+≤10m
+数据率:
+≥0.2Hz
+数据接口:
+RJ45/1路百兆以太网
+电源输入:
+≤400W(功耗)`} source="radardo.com" />
+        <ProductCard name="XW/SR226-2100C玄武系列-低空安防雷达" description="应用领域：主要用于监狱、展会、基地等重点区域内微型/小型民用无人机的探测、警戒和目标指示，能够准确的给出目标的方位、距离、高度和速度等航迹信息。" specs={`工作体制：相控阵体制（方位机扫+俯仰相扫）/脉冲多普勒
+产品组成：由1个雷达阵面、1个机械转台和1个电源适配器组成
+应用领域：主要用于监狱、展会、基地等重点区域内微型/小型民用无人机的探测、警戒和目标指示，能够准确的给出目标的方位、距离、高度和速度等航迹信息。
+所属分类：
+无人机
+玄武系列-低空安防雷达
+400-808-1878
+027-65520251
+产品咨询
+相关推荐
+产品描述
+产品特点
+产品指标
+产品尺寸
+探测距离
+商品名称:
+工作频段:
+C波段
+无人机:
+1.5 km
+工作体制:
+相控阵体制（方位机扫+俯仰相扫）/脉冲多普勒
+工作频段:
+C波段
+量程:
+2.1km
+有效探测威力:
+100m～1.5km（无人机）
+方位覆盖:
+360°
+仰角覆盖:
+≥30°
+探测速度:
+0.5m/s～30m/s
+方位精度:
+≤1.0°
+俯仰精度:
+≤1.0°
+距离精度:
+≤10m
+数据率:
+≥0.2Hz
+数据接口:
+RJ45/1路百兆以太网
+电源输入:
+≤100W(功耗) AC200-AC240(输入)
+工作温度:
+-40℃～+55℃
+重量:
+≤15kg（整机）
+无人机：1.5km
+工作体制：相`} source="radardo.com" />
+        <ProductCard name="XW/SR226-3000XP玄武系列-低空安防雷达" description="应用领域：主要用于监狱、展会、基地等重点区域内微型/小型民用无人机的探测、警戒和目标指示，能够准确的给出目标的方位、距离、高度和速度等航迹信息。" specs={`工作体制：相控阵体制（方位机扫+俯仰相扫）/脉冲多普勒
+产品组成：由1个雷达阵面、1个机械转台和1个电源适配器组成
+应用领域：主要用于监狱、展会、基地等重点区域内微型/小型民用无人机的探测、警戒和目标指示，能够准确的给出目标的方位、距离、高度和速度等航迹信息。
+所属分类：
+无人机
+玄武系列-低空安防雷达
+400-808-1878
+027-65520251
+产品咨询
+相关推荐
+产品描述
+产品特点
+产品指标
+产品尺寸
+探测距离
+商品名称:
+工作频段:
+X波段
+无人机:
+2.0 km
+工作体制:
+相控阵体制（方位机扫+俯仰相扫）/脉冲多普勒
+工作频段:
+X波段
+量程:
+3.1km
+有效探测威力:
+100m～2.0km（无人机）
+方位覆盖:
+360°
+仰角覆盖:
+≥40°
+探测速度:
+0.5m/s～30m/s
+方位精度:
+≤0.8°
+俯仰精度:
+≤1.0°
+距离精度:
+≤10m
+数据率:
+≥0.2Hz
+数据接口:
+RJ45/1路百兆以太网
+电源输入:
+≤200W(功耗) AC200-AC240(输入)
+工作温度:
+-40℃～+55℃
+重量:
+≤30kg（整机）
+无人机：2.0km
+工作体制：相`} source="radardo.com" />
+        <ProductCard name="XW/SR226-5000S玄武系列-低空安防雷达" description="应用领域：主要用于监狱、展会、基地等重点区域内微型/小型民用无人机的探测、警戒和目标指示，能够准确的给出目标的方位、距离、高度和速度等航迹信息。" specs={`工作体制：相控阵体制（方位机扫+俯仰相扫）/脉冲多普勒
+产品组成：由1个雷达阵面、1个机械转台和1个电源适配器组成
+应用领域：主要用于监狱、展会、基地等重点区域内微型/小型民用无人机的探测、警戒和目标指示，能够准确的给出目标的方位、距离、高度和速度等航迹信息。
+所属分类：
+玄武系列-低空安防雷达
+无人机
+400-808-1878
+027-65520251
+产品咨询
+相关推荐
+产品描述
+产品特点
+产品指标
+产品尺寸
+探测距离
+商品名称:
+工作频段:
+S波段
+无人机:
+5.0 km
+工作体制:
+相控阵体制（方位机扫+俯仰相扫）/脉冲多普勒
+工作频段:
+S波段
+量程:
+10.2km
+有效探测威力:
+100m～5.0km（无人机）
+方位覆盖:
+360°
+仰角覆盖:
+≥40°
+探测速度:
+0.5m/s～30m/s
+方位精度:
+≤1.0°
+俯仰精度:
+≤1.0°
+距离精度:
+≤10m
+数据率:
+≥0.2Hz
+数据接口:
+RJ45/1路百兆以太网
+电源输入:
+≤250W(功耗) AC200-AC240(输入)
+工作温度:
+-40℃～+55℃
+重量:
+≤45kg
+无人机：5.0km
+工作体制：相控阵体`} source="radardo.com" />
+        <ProductCard name="XWSR226-10200S玄武系列-低空安防雷达" description="应用领域：主要用于边境、周界、基地等重点区域内微型/小型民用无人机的探测、警戒和目标指示，能够准确的给出目标的方位、距离、高度和速度等航迹信息。" specs={`工作体制：相控阵体制（方位机扫+俯仰相扫）/脉冲多普勒
+产品组成：由1个雷达阵面、1个机械转台和1个电源适配器组成
+应用领域：主要用于边境、周界、基地等重点区域内微型/小型民用无人机的探测、警戒和目标指示，能够准确的给出目标的方位、距离、高度和速度等航迹信息。
+所属分类：
+玄武系列-低空安防雷达
+无人机
+400-808-1878
+027-65520251
+产品咨询
+相关推荐
+产品视频
+产品描述
+产品特点
+产品指标
+产品尺寸
+探测距离
+商品名称:
+工作频段:
+S波段
+无人机:
+10 km
+工作体制:
+相控阵体制（方位机扫+俯仰相扫）/脉冲多普勒
+工作频段:
+S波段
+量程:
+10.2km
+有效探测威力:
+100m～10.0km（无人机）
+方位覆盖:
+360°
+仰角覆盖:
+≥40°
+探测速度:
+1.0m/s～85m/s
+方位精度:
+≤0.8°
+俯仰精度:
+≤1.0°
+距离精度:
+≤10m
+数据率:
+≥0.2Hz
+数据接口:
+RJ45/1路百兆以太网
+电源输入:
+≤250W(功耗) AC200-AC240(输入)
+工作温度:
+-40℃～+55℃
+重量:
+≤60kg
+优酷视频链接:
+https:`} source="radardo.com" />
+        <ProductCard name="Airport Bird Deterrence Low Altitude Target Surveillance Radar" description="AGT-3D-RD6000KU The type radar adopts an advanced one-dimensional simultaneous multi-beam system based on DBF, and has the ability to detect a variety of aircraft such as multi-rotator UAVs, fixed-win" specs={`Model
+AGT-3D-RD6000KU
+Working frequency band
+Beam scanning method
+Pitch multiple beams at the same time
+Azith mechanical scanning
+Detection
+distance
+km (RCS=0.01m2)
+Blind zone distance
+≤ 150m
+overage
+360°
+Pitch coverage
+≥60°
+Speed measurement range (radial)
+1m/s ~ 150m/s
+Distance measurement accuracy
+≤ 7.5m
+Ambital measurement accuracy
+≤ 0.3°
+Accuracy of pitch measurement
+≤ 0.
+Data rate
+The number of targets detected at the same time
+≥ 500 batches
+Weight
+Storage temperature range
+-45℃ ~ 65℃
+Work`} source="argustecn.com" />
+        <ProductCard name="Low-Altitude Board Security Airport Bird Deterrence Surveillance Radar" description="AGT-3D-RD5000X three coordinate surveillance radar is mainly used in low altitude and ground surveillance" specs={`Model
+AGT-3D-RD5000X
+Operating frequency
+10.4
+10.6GHz
+Frequency hopping number
+Coverage
+360°
+Elevation coverage
+Height coverage:
+≥800 m
+Detection range
+≥5km (Phantom 4 UAV),
+≥8km (personnel)
+≥10km (vehicle)
+Angle measurement accuracy
+azimuth≤0.4° (RMS)
+elevation≤0.4° (RMS)
+Ranging accuracy
+≤5m (RMS)
+Blind area
+≤50m
+Antenna rotation speed
+180°/s
+Target capacity
+≥150
+Detection speed range
+100m/s
+Operating temperature
+-40 ~ +55℃
+Power supply
+DC48V or AC220V
+Power consumption
+≤200W
+Previous:
+Next:
+L`} source="argustecn.com" />
+        <ProductCard name="Moving Target Surveillance Radar" description="Ultra-low false alarm rate" specs={`Model
+AGT-2D-RD7500KU
+Frequency
+Ku Band
+Frequency
+hopping number
+Detection range
+≥ 7.5km
+human
+≥ 12km
+small vehicles
+≥ 20km
+ships
+Radial velocity range
+0.4m/s-60m/s
+Update Rate:
+1.2s
+Distance accuracy
+≤ 5m
+Azimuth accuracy
+≤ 0.25°
+Velocity accuracy
+≤ ± 0.1m/s ± 2%
+Azimuth coverage
+Ø90 °
+Simultaneous tracked targets
+≥100
+Weight
+≤ 5kg
+Power consumption
+≤ 80W
+Power supply range
+DC 18-28V
+Working temperature
+-40~+55 ℃
+Communication interface
+Gigabit Ethernet
+Protection level
+IP67
+Size((H x W x D)
+42`} source="argustecn.com" />
+        <ProductCard name="Security and Surveillance Radar for Tracking Airport Bird Deterrence" description="AGT-2D-RD2000STS security radar is a cost-effective product that detects and locates targets by emitting 24GHz electromagnetic waves and detecting echoes with the Doppler effect reflected by objects. " specs={`Radar characteristics
+index
+working frequency
+5.4-5.6 GHz
+Data update rate
+≤0.5Hz
+Detection range
+≥2km (personnel), ≥4.5km (vehicle ship)
+Blind area
+≤150m
+Horizontal angle range
+±45°
+Speed range
+±32m/s
+Accuracy
+distance measurement accuracy : ±2.5 m
+angle measurement accuracy:±1°
+Electrical characteristics
+Radar Power supply
+DC12V
+Radar power consumption
+≤25W
+mechanical properties
+Radar Unit Size
+382×308×167 mm
+Radar weight
+6.5kg
+encapsulation
+Durable cast aluminum waterproof shell, IP66 rating
+`} source="argustecn.com" />
       </div>
-      <div class="text-center">
-        <a href="/contact" class="inline-flex items-center px-6 py-3 rounded-lg bg-baolu-accent text-white font-semibold hover:bg-baolu-accent/90">Inquire About Radar Products</a>
+      <SectionHeader title="Ground Surveillance Radars" subtitle="Perimeter security and border surveillance for personnel and vehicles" />
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+        <ProductCard name="XW/SR215-1200C玄武系列-地面安防雷达" description="应用领域：主要用于边境、周界、检查站、基地等重点区域内行人、车辆的探测、警戒和目标指示，能够准确的给出目标的方位、距离和速度等航迹信息。" specs={`工作体制：相控阵体制（方位相扫）/脉冲多普勒
+产品组成：由1个雷达阵面和1个电源适配器组成
+应用领域：主要用于边境、周界、检查站、基地等重点区域内行人、车辆的探测、警戒和目标指示，能够准确的给出目标的方位、距离和速度等航迹信息。
+1.2 km
+0.8 km
+所属分类：
+玄武系列-地面安防雷达
+人 | 车
+400-808-1878
+027-65520251
+产品咨询
+相关推荐
+产品描述
+产品特点
+产品指标
+产品尺寸
+探测距离
+商品名称:
+工作频段:
+C波段
+行人:
+0.8 km
+车辆:
+1.2 km
+工作体制:
+相控阵体制（方位相扫）/脉冲多普勒
+工作频段:
+C波段
+量程:
+1.5km
+有效探测威力:
+100m～0.8km（行人）100m～1.2km（车辆）
+方位覆盖:
+≥90°
+仰角覆盖:
+≥18°
+探测速度:
+0.5m/s～30m/s
+方位精度:
+≤1.0°
+俯仰精度:
+距离精度:
+≤8m
+数据率:
+≥2Hz
+数据接口:
+RJ45/1路百兆以太网
+电源输入:
+≤45W(功耗) AC220V～240V(输入)
+工作温度:
+-40℃～+55℃
+重量:
+≤5.5kg
+行人：0.8 km
+车`} source="radardo.com" />
+        <ProductCard name="XW/SR215-1500C玄武系列-地面安防雷达" description="应用领域：主要用于边境、周界、检查站、基地等重点区域内行人、车辆的探测、警戒和目标指示，能够准确的给出目标的方位、距离和速度等航迹信息。" specs={`工作体制：相控阵体制（方位相扫）/脉冲多普勒
+产品组成：由1个雷达阵面和1个电源适配器组成
+应用领域：主要用于边境、周界、检查站、基地等重点区域内行人、车辆的探测、警戒和目标指示，能够准确的给出目标的方位、距离和速度等航迹信息。
+3.0 km
+1.5 km
+所属分类：
+玄武系列-地面安防雷达
+人 | 车
+400-808-1878
+027-65520251
+产品咨询
+相关推荐
+产品描述
+产品特点
+产品指标
+产品尺寸
+探测距离
+商品名称:
+工作频段:
+C波段
+行人:
+1.5 km
+车辆:
+3.0 km
+工作体制:
+相控阵体制（方位相扫）/脉冲多普勒
+工作频段:
+C波段
+量程:
+3.2km
+有效探测威力:
+100m～1.5km（行人） 100m～3.0km（车辆）
+方位覆盖:
+≥90°
+仰角覆盖:
+≥18°
+探测速度:
+0.5m/s～30m/s
+方位精度:
+≤1.0°
+俯仰精度:
+距离精度:
+≤10m
+数据率:
+≥2Hz
+数据接口:
+RJ45/1路百兆以太网
+电源输入:
+≤55W(功耗) AC220V～240V(输入)
+工作温度:
+-40℃～+55℃
+重量:
+≤5.5kg
+行人：1.5km
+`} source="radardo.com" />
+        <ProductCard name="XW/SR215-3200C玄武系列-地面安防雷达" description="应用领域：主要用于边境、周界、检查站、基地等重点区域内行人、车辆的探测、警戒和目标指示，能够准确的给出目标的方位、距离和速度等航迹信息。" specs={`工作体制：相控阵体制（方位相扫）/脉冲多普勒
+产品组成：由1个雷达阵面和1个电源适配器组成
+应用领域：主要用于边境、周界、检查站、基地等重点区域内行人、车辆的探测、警戒和目标指示，能够准确的给出目标的方位、距离和速度等航迹信息。
+5.0 km
+3.0 km
+所属分类：
+玄武系列-地面安防雷达
+人 | 车
+400-808-1878
+027-65520251
+产品咨询
+相关推荐
+产品描述
+产品特点
+产品指标
+产品尺寸
+探测距离
+商品名称:
+工作频段:
+C波段
+行人:
+3.0 km
+车辆:
+5.0 km
+工作体制:
+相控阵体制（方位相扫）/脉冲多普勒
+工作频段:
+C波段
+量程:
+5.2km
+有效探测威力:
+100m～3.0km（行人）  100m～5.0km（车辆）
+方位覆盖:
+≥90°
+仰角覆盖:
+≥9°
+探测速度:
+0.5m/s～30m/s
+方位精度:
+≤1.0°
+俯仰精度:
+距离精度:
+≤10m
+数据率:
+≥2Hz
+数据接口:
+RJ45/1路百兆以太网
+电源输入:
+≤60W(功耗) AC220V～AC240V(输入)
+工作温度:
+-40℃～+55℃
+重量:
+≤5.5kg
+行人：3.0 `} source="radardo.com" />
+      </div>
+      <SectionHeader title="Maritime &amp; Coastal Surveillance Radars" subtitle="Sea surface monitoring for vessels and low-altitude targets" />
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+        <ProductCard name="XW/SR237-3100C玄武系列-近海安防雷达" description="应用领域：主要用于在近海和内河区域，监控船只的探测、警戒和目标指示，能够准确的给出目标的航迹信息。" specs={`工作体制：相控阵体制（方位相扫）/脉冲多普勒
+产品组成：由1个雷达阵面和1个电源适配器组成
+应用领域：主要用于在近海和内河区域，监控船只的探测、警戒和目标指示，能够准确的给出目标的航迹信息。
+所属分类：
+玄武系列-近海安防雷达
+400-808-1878
+027-65520251
+产品咨询
+相关推荐
+产品描述
+产品特点
+产品指标
+产品尺寸
+探测距离
+商品名称:
+工作频段:
+C波段
+工作体制:
+相控阵体制（方位相扫）/脉冲多普勒
+工作频段:
+C波段
+量程:
+3.1km
+有效探测威力:
+100m～3.0km（船只）
+方位覆盖:
+≥90°
+仰角覆盖:
+≥9°
+探测速度:
+0.5m/s～40m/s
+方位精度:
+≤1.0°
+俯仰精度:
+距离精度:
+≤10m
+数据率:
+≥2Hz
+数据接口:
+RJ45/1路百兆以太网
+电源输入:
+≤55W(功耗) AC200-AC240(输入)
+工作温度:
+-40℃～55℃
+重量:
+≤5.5kg
+船只：3.0 km
+工作体制：相控阵体制（方位相扫）/脉冲多普勒
+产品组成：由1个雷达阵面和1个电源适配器组成
+应用领域：主要用于在近海和内河区域，监控船只的探测、警戒和目标`} source="radardo.com" />
+        <ProductCard name="XW/SR237-5200C玄武系列-近海安防雷达" description="应用领域：主要用于在近海和内河区域，监控船只的探测、警戒和目标指示，能够准确的给出目标的航迹信息。" specs={`工作体制：相控阵体制（方位相扫）/脉冲多普勒
+产品组成：由1个雷达阵面和1个电源适配器组成
+应用领域：主要用于在近海和内河区域，监控船只的探测、警戒和目标指示，能够准确的给出目标的航迹信息。
+所属分类：
+玄武系列-近海安防雷达
+400-808-1878
+027-65520251
+产品咨询
+相关推荐
+产品描述
+产品特点
+产品指标
+产品尺寸
+探测距离
+商品名称:
+工作频段:
+C波段
+船只:
+5.0 km
+工作体制:
+相控阵体制（方位相扫）/脉冲多普勒
+工作频段:
+C波段
+量程:
+5.2km
+有效探测威力:
+100m～5.0km（船只）
+方位覆盖:
+≥90°
+仰角覆盖:
+≥18°
+探测速度:
+0.5m/s～30m/s
+方位精度:
+≤1.0°
+俯仰精度:
+距离精度:
+≤10m
+数据率:
+≥2Hz
+数据接口:
+RJ45/1路百兆以太网
+电源输入:
+≤60W(功耗) AC200-AC240(输入)
+工作温度:
+-40℃～+55℃
+重量:
+≤5.5kg
+船只：5.0 km
+工作体制：相控阵体制（方位相扫）/脉冲多普勒
+产品组成：由1个雷达阵面和1个电源适配器组成
+应用领域：主要用于在近海和内河区域，`} source="radardo.com" />
+        <ProductCard name="XW/SR237-8500C玄武系列-近海安防雷达" description="应用领域：主要用于在近海和内河区域，监控船只的探测、警戒和目标指示，能够准确的给出目标的航迹信息。" specs={`工作体制：相控阵体制（方位相扫）/脉冲多普勒
+产品组成：由1个雷达阵面和1个电源适配器组成
+应用领域：主要用于在近海和内河区域，监控船只的探测、警戒和目标指示，能够准确的给出目标的航迹信息。
+所属分类：
+玄武系列-近海安防雷达
+400-808-1878
+027-65520251
+产品咨询
+相关推荐
+产品描述
+产品特点
+产品指标
+产品尺寸
+探测距离
+商品名称:
+工作频段:
+C波段
+船只:
+8.0 km
+工作体制:
+相控阵体制（方位相扫）/脉冲多普勒
+工作频段:
+C波段
+量程:
+8.5km
+有效探测威力:
+100m～8.0km（船只）
+方位覆盖:
+≥90°
+仰角覆盖:
+≥9°
+探测速度:
+0.5m/s～30m/s
+方位精度:
+≤1.0°
+俯仰精度:
+距离精度:
+≤10m
+数据率:
+≥2Hz
+数据接口:
+RJ45/1路百兆以太网
+电源输入:
+≤65W(功耗) AC200-AC240(输入)
+工作温度:
+-40℃～+55℃
+重量:
+≤5.5kg
+船只：8.0 km
+工作体制：相控阵体制（方位相扫）/脉冲多普勒
+产品组成：由1个雷达阵面和1个电源适配器组成
+应用领域：主要用于在近海和内河区域，监`} source="radardo.com" />
+        <ProductCard name="Low-altitude Surveillance Airport Bird Deterrence Anti-drone Radar for Sea Surface Surveillance" description="AGT-3D-RD5000XLK three coordinate surveillance radar is mainly composed of one radar array, one mechanical turntable, and one power adapter. It is used for the detection, surveillance, and target indi" specs={`Model
+AGT-3D-RD5000XLK
+Working frequency band
+X Band
+Beam scanning method
+Phased array system
+(azimuth-scanning+elevation-scanning)
+pulse Doppler
+Detection distance
+≥5km (Phantom 4 UAV),
+≥8km (personnel),
+≥10km (vehicle/ helicopter)
+Blind zone distance
+≤ 100m
+Coverage
+360°
+Pitch coverage
+≥40°
+Angle measurement accuracy
+azimuth≤0.5° (RMS)，
+elevation≤1° (RMS)
+Ranging accuracy
+≤10m (RMS)
+Data rate
+≥0.2Hz
+Target capacity
+≥500
+Detection speed range
+1～75m/s
+Operating temperature
+-40 ~ +55℃
+Protection `} source="argustecn.com" />
+      </div>
+      <div class="text-center mt-12 pt-8 border-t border-baolu-blue/20">
+        <p class="text-baolu-gray mb-4">Need assistance selecting the right radar system?</p>
+        <a href="/contact" class="inline-flex items-center px-8 py-4 rounded-lg bg-baolu-accent text-white font-semibold text-lg hover:bg-baolu-accent/90 transition-colors">Contact Our Radar Specialists</a>
       </div>
     </div>
   </section>

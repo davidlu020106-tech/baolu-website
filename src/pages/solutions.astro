@@ -1,41 +1,68 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import ProductCard from "../components/ProductCard.astro";
+import SectionHeader from "../components/SectionHeader.astro";
 ---
-
-<Layout title="Solutions — Baolu Tech Anti-Drone Systems">
+<Layout title="Integrated Solutions — Baolu Tech">
   <section class="hero-gradient pt-32 pb-16">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h1 class="text-4xl font-bold text-white">Industry Solutions</h1>
-      <p class="mt-4 text-baolu-light/70 max-w-2xl">Tailored anti-drone solutions for critical sectors worldwide.</p>
+      <h1 class="text-4xl font-bold text-white">Integrated Solutions</h1>
+      <p class="mt-4 text-baolu-light/70 max-w-3xl">Complete anti-drone systems combining radar, RF detection, optoelectronics, and countermeasures into unified, turnkey solutions for any environment.</p>
     </div>
   </section>
   <section class="py-16 bg-baolu-dark">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div class="card-hover rounded-xl bg-baolu-navy/50 border border-baolu-blue/20 p-6">
-          <h3 class="text-lg font-semibold text-white mb-2">Airports</h3>
-          <p class="text-sm text-baolu-gray">Comprehensive airspace monitoring to prevent drone-related disruptions and ensure flight safety.</p>
-        </div>
-        <div class="card-hover rounded-xl bg-baolu-navy/50 border border-baolu-blue/20 p-6">
-          <h3 class="text-lg font-semibold text-white mb-2">Border Defense</h3>
-          <p class="text-sm text-baolu-gray">Long-range detection and tracking for border security against unauthorized drone incursions.</p>
-        </div>
-        <div class="card-hover rounded-xl bg-baolu-navy/50 border border-baolu-blue/20 p-6">
-          <h3 class="text-lg font-semibold text-white mb-2">Military</h3>
-          <p class="text-sm text-baolu-gray">Tactical anti-drone solutions for base protection and battlefield airspace management.</p>
-        </div>
-        <div class="card-hover rounded-xl bg-baolu-navy/50 border border-baolu-blue/20 p-6">
-          <h3 class="text-lg font-semibold text-white mb-2">Critical Infrastructure</h3>
-          <p class="text-sm text-baolu-gray">Protect power plants, data centers, and oil refineries from drone threats.</p>
-        </div>
-        <div class="card-hover rounded-xl bg-baolu-navy/50 border border-baolu-blue/20 p-6">
-          <h3 class="text-lg font-semibold text-white mb-2">VIP Security</h3>
-          <p class="text-sm text-baolu-gray">Mobile rapid-deployment systems for securing VIP events and venues.</p>
-        </div>
-        <div class="card-hover rounded-xl bg-baolu-navy/50 border border-baolu-blue/20 p-6">
-          <h3 class="text-lg font-semibold text-white mb-2">Correctional</h3>
-          <p class="text-sm text-baolu-gray">Prevent drone-delivered contraband and unauthorized surveillance.</p>
-        </div>
+      <SectionHeader title="Multi-Sensor Integrated Systems" subtitle="Turnkey counter-UAS solutions with sensor fusion and automated response" />
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+        <ProductCard name="Airport Bird Deterrence Laser EOD Neutralization System" description="" specs={`Performance
+Laser Transmitting Power
+500～1000W
+Transmission power adjustment range
+10%～100%
+beam quality
+≤1.2
+working distance
+≥100m
+aiming accuracy
+Aiming error at 100 meters≤2.5mm
+Continuous working time
+≥60min
+weight
+≤60kg
+Deployment withdrawal time
+≤3min
+camera magnification
+Optical zoom magnification ≥ 30X
+electronic zoom magnification ≥ 10X
+System functions
+Observe the guided aiming function`} source="argustecn.com" />
+        <ProductCard name="Argustec Multi Sensor Anti Drone Systems" description="The AUS70 anti-drone system consists of a spectrum detection system, a radar detection system, intelligent camera tracking system, jamming interference system, and control software. For the spectrum detection system, it is combined with radar detecti" specs={`Model No.
+AGT-AUS70
+Distance
+For the target of DJI phamtom 4
+RF detector≥5km
+Radar ≥5Km；
+Camera detection≥5km，Track distance≥4km；
+Jamming distance≥5Km，Deception distance：≥5Km；
+Laser blinding：≥1Km；
+RF detection
+Detection recognition frequency range：300MHz~6000MHz；
+Detection frequency ：845MHz、915MHz、1.4GHz、2.4GHz、5.2GHz、5.8GHz；
+Detection bandwidth：≥120MHz；
+Accuracy：≤3°
+Target detection in one same t`} source="argustecn.com" />
+      </div>
+      <SectionHeader title="Applications by Industry" subtitle="Tailored integrated solutions for every sector" />
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-16">
+        <div class="rounded-xl bg-baolu-navy/50 border border-baolu-blue/20 p-4 text-center hover:border-baolu-accent/50 transition-colors"><span class="text-sm font-medium text-white">Airports</span></div>
+        <div class="rounded-xl bg-baolu-navy/50 border border-baolu-blue/20 p-4 text-center hover:border-baolu-accent/50 transition-colors"><span class="text-sm font-medium text-white">Border Defense</span></div>
+        <div class="rounded-xl bg-baolu-navy/50 border border-baolu-blue/20 p-4 text-center hover:border-baolu-accent/50 transition-colors"><span class="text-sm font-medium text-white">Military</span></div>
+        <div class="rounded-xl bg-baolu-navy/50 border border-baolu-blue/20 p-4 text-center hover:border-baolu-accent/50 transition-colors"><span class="text-sm font-medium text-white">Critical Infrastructure</span></div>
+        <div class="rounded-xl bg-baolu-navy/50 border border-baolu-blue/20 p-4 text-center hover:border-baolu-accent/50 transition-colors"><span class="text-sm font-medium text-white">VIP Security</span></div>
+        <div class="rounded-xl bg-baolu-navy/50 border border-baolu-blue/20 p-4 text-center hover:border-baolu-accent/50 transition-colors"><span class="text-sm font-medium text-white">Correctional</span></div>
+      </div>
+      <div class="text-center mt-8 pt-8 border-t border-baolu-blue/20">
+        <a href="/contact" class="inline-flex items-center px-8 py-4 rounded-lg bg-baolu-accent text-white font-semibold text-lg hover:bg-baolu-accent/90 transition-colors">Request a Custom Solution</a>
       </div>
     </div>
   </section>
