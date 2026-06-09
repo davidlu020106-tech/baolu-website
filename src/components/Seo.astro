@@ -1,0 +1,43 @@
+---
+export interface Props {
+  title?: string;
+  description?: string;
+  canonical?: string;
+}
+
+const {
+  title = "Baolu Tech — Radar-Centric Anti-Drone Solutions",
+  description = "Professional anti-drone radar systems, jammers, spectrum detection and individual gear for airspace security.",
+  canonical = Astro.url.pathname,
+} = Astro.props;
+
+const siteUrl = "https://baolu-tech.com";
+const fullUrl = `${siteUrl}${canonical}`;
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Jinan Baolu Technology Co., Ltd.",
+  alternateName: "Baolu Tech",
+  url: siteUrl,
+  foundingDate: "2015",
+  numberOfEmployees: 120,
+  description: "Radar-centric anti-drone and airspace security solutions provider.",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Jinan",
+    addressRegion: "Shandong",
+    addressCountry: "CN",
+  },
+  contactPoint: {
+    "@type": "ContactPoint",
+    telephone: "+86-19524697801",
+    contactType: "sales",
+    email: "sales@baolu-tech.com",
+  },
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
+
+<link rel="canonical" href={fullUrl} />
