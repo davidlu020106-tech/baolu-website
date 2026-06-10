@@ -6,14 +6,15 @@ import SectionHeader from "../../components/SectionHeader.astro";
 <Layout title="Individual Gear — Baolu Tech">
   <section class="hero-gradient pt-32 pb-16">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <nav class="text-sm text-baolu-gray mb-4"><a href="/" class="hover:text-baolu-accent">Home</a> / <a href="/products" class="hover:text-baolu-accent">Products</a> / <span class="text-baolu-light">Individual Gear</span></nav>
+      <nav class="text-sm text-baolu-gray mb-4">
+        <a href="/" class="hover:text-baolu-accent">Home</a> / <a href="/products" class="hover:text-baolu-accent">Products</a> / <span class="text-baolu-light">Individual Gear</span>
+      </nav>
       <h1 class="text-4xl font-bold text-white">Individual Gear</h1>
-      <p class="mt-4 text-baolu-light/70 max-w-3xl">Portable, lightweight anti-drone equipment designed for rapid deployment and field operations by individual operators.</p>
+      <p class="mt-4 text-baolu-light/70 max-w-3xl">Portable, lightweight anti-drone equipment for rapid deployment.</p>
     </div>
   </section>
   <section class="py-16 bg-baolu-dark">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <SectionHeader title="Man-Portable Anti-Drone Systems" subtitle="Compact, lightweight, rapid-deployment equipment for field operators" />
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
         <ProductCard name="DR200-S1 导航诱骗设备" description="该产品可以实时再生不少于两个频段的卫星导航欺骗信号，对采用卫星导航的无人机接收的导航坐标信息 进行欺骗式干扰，实现定向驱离(8方向)和区域拒止功能，确保低空安全。GPS L1、GPS L2、GPS L5、GLONASS L1、BDS B1" specs={`支持频段：
 起效时间：
@@ -24,10 +25,11 @@ import SectionHeader from "../../components/SectionHeader.astro";
 工作温度：（-40℃~+60℃）±2℃
 防护等级：IP66
 重量：≤11kg
-尺寸：355mm*351mm&*150mm（长*宽*高）`} source="spbatc.com" />
+尺寸：355mm*351mm&*150mm（长*宽*高）`} source="spbatc.com" category="individual" slug="dr200-s1-导航诱骗设备" />
       </div>
-      <div class="text-center mt-8 pt-8 border-t border-baolu-blue/20">
-        <a href="/contact" class="inline-flex items-center px-8 py-4 rounded-lg bg-baolu-accent text-white font-semibold text-lg hover:bg-baolu-accent/90 transition-colors">Inquire About Individual Gear</a>
+      <div class="text-center mt-12 pt-8 border-t border-baolu-blue/20">
+        <p class="text-baolu-gray mb-4">Can't find what you're looking for?</p>
+        <a href="/contact" class="inline-flex items-center px-8 py-4 rounded-lg bg-baolu-accent text-white font-semibold text-lg hover:bg-baolu-accent/90 transition-colors">Contact Our Team</a>
       </div>
     </div>
   </section>

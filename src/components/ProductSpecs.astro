@@ -1,0 +1,83 @@
+---
+/**
+ * ProductSpecs — 美观的参数表格组件
+ * 将 raw_specs 数组渲染为格式化表格
+ * 支持：键值对行 → 两列表格 | 标题行 → 分类标题
+ */
+export interface Props {
+  specs: string[];
+}
+
+const { specs } = Astro.props;
+
+// 判断是否为分类标题行（无冒号、较短、纯中文/英文名）
+function isSectionHeader(line: string): boolean {
+  const t = line.trim();
+  if (!t) return false;
+  // 包含冒号 → 键值对
+  if (t.includes('：') || t.includes(':')) return false;
+  // 长度 < 20 且没有常见标点 → 可能是标题
+  if (t.length < 30 && !t.includes(',') && !t.includes('。') && !t.includes('；')) {
+    // 排除纯数字/单位行
+    if (/^[\d\s\-.°%kms]+$/.test(t)) return false;
+    return true;
+  }
+  return false;
+}
+
+function splitKeyValue(line: string): { key: string; value: string } | null {
+  const t = line.trim();
+  // 尝试中文冒号
+  const idx1 = t.indexOf('：');
+  if (idx1 > 0) return { key: t.substring(0, idx1).trim(), value: t.substring(idx1 + 1).trim() };
+  // 尝试英文冒号
+  const idx2 = t.indexOf(':');
+  if (idx2 > 0) return { key: t.substring(0, idx2).trim(), value: t.substring(idx2 + 1).trim() };
+  return null;
+}
+
+function dedupe(arr: string[]): string[] {
+  const seen = new Set<string>();
+  return arr.filter(s => {
+    const key = s.trim().toLowerCase();
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+const cleanSpecs = dedupe(specs);
+---
+
+<div class="space-y-1">
+  {
+    cleanSpecs.map(line => {
+      const trimmed = line.trim();
+      if (!trimmed) return null;
+
+      if (isSectionHeader(trimmed)) {
+        return (
+          <div class="mt-5 mb-2 first:mt-0">
+            <h4 class="text-sm font-bold text-baolu-accent uppercase tracking-wider">{trimmed}</h4>
+            <div class="mt-1 h-px bg-baolu-accent/30"></div>
+          </div>
+        );
+      }
+
+      const kv = splitKeyValue(trimmed);
+      if (kv) {
+        return (
+          <div class="flex gap-4 py-1.5 px-3 odd:bg-white/5 rounded">
+            <span class="text-sm text-baolu-gray min-w-[140px] font-medium shrink-0">{kv.key}</span>
+            <span class="text-sm text-white">{kv.value || '—'}</span>
+          </div>
+        );
+      }
+
+      // 普通行
+      return (
+        <div class="py-1 px-3 text-sm text-baolu-light/80">{trimmed}</div>
+      );
+    })
+  }
+</div>
