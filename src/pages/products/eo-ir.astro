@@ -1,0 +1,120 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import ProductCard from "../../components/ProductCard.astro";
+import SectionHeader from "../../components/SectionHeader.astro";
+---
+<Layout title="EO/IR Systems — Baolu Tech">
+  <section class="hero-gradient pt-32 pb-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav class="text-sm text-baolu-gray mb-4">
+        <a href="/" class="hover:text-baolu-accent">Home</a> / <a href="/products" class="hover:text-baolu-accent">Products</a> / <span class="text-baolu-light">EO/IR Systems</span>
+      </nav>
+      <h1 class="text-4xl font-bold text-white">EO/IR &amp; Optoelectronic Systems</h1>
+      <p class="mt-4 text-baolu-light/70 max-w-3xl">High-performance electro-optical and infrared systems including multi-sensor PTZ cameras, thermal imaging cameras, laser illumination, vehicle-mounted systems, and integrated defense platforms.</p>
+    </div>
+  </section>
+  <section class="py-16 bg-baolu-dark">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <SectionHeader title="Anti-UAV Defense Systems" subtitle="Integrated EO/IR-based counter-UAS platforms" />
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+        <ProductCard name="AX-DMA Anti-UAV Automatic Defense Surveillance System" description="Integrated anti-UAV automatic defense surveillance system with thermal, visible, laser and radar-linkage capabilities" specs={`Recognize Distance: 1500m for UAV (30cm*30cm size )
+Uncooled Thermal Camera: Detector: Long-wave uncooled FPA VOx detector Resolution: 640*512/1280*1024 Lens : 75mm/105mm/155mm/190mm optional
+Cooled Thermal Camera (optional): Detector: MWIR MCT detector Resolution：640*512 Lens : 300mm continuous zoom lens
+Visible Light Camera: Resolution: 2 MP / 4 MP Lens : 320mm/500mm/800mm/1000mm optional Lens Control: electric zoom, manual/auto focus
+Laser Illuminator: Range: 808nm/940nm optional Consumption:`} source="Baolu Tech" />
+      </div>
+      <SectionHeader title="Multi-Sensor PTZ Cameras" subtitle="Dual-spectrum and multi-sensor pan-tilt-zoom cameras for long-range surveillance" />
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+        <ProductCard name="AX-HTVC Dual Sensor Intelligent Camera" description="High-performance EO/IR camera system for long-range surveillance and security applications" specs={`Detection Distance: Vehicle: 18000m Human: 8000m
+Recognition Distance: Vehicle: 6000m Human: 2600m
+Thermal Camera: Uncooled FPA VOx detector
+Thermal Camera: Resolution: 640*512 / 384*288
+Thermal Camera: Lens: 75mm/105mm/155mm/190mm/ 230mm/300mm optional
+Visible Light Camera: Resolution: 2 MP / 4 MP Lens focal length: 320mm/500mm/800mm/1000mm Lens control: electric zoom, auto focus Interface and vi`} source="Baolu Tech" />
+        <ProductCard name="AX-Z50 Multi-Sensor Intelligent Camera" description="High-performance EO/IR camera system for long-range surveillance and security applications" specs={`Detection Distance: Vehicle: 19000m Human: 12000m
+Recognition Distance: Vehicle: 9000m Human: 4500m
+Uncooled Thermal Camera: Detector: uncooled FPA VOx detector Resolution: 640*512/1280*1024 Lens : 105mm/155mm/190mm optional
+Cooled Thermal Camera (optional): Detector: Medium wave refrigerated mercury cadmium telluride (MCT) infrared focal plane Resolution: 640*512 Lens focal length: 22 ～ 450mm len`} source="Baolu Tech" />
+        <ProductCard name="AX-ZS20 GIS Gyro Mini PTZ Camera" description="High-performance EO/IR camera system for long-range surveillance and security applications" specs={`Detection ≥ 20km for ship Recognition ≥ 10km for ship
+Visible Light Camera: Resolution: 2 MP / 4 MP Lens: 8~320mm Lens control: Electric zoom, auto focus Interface and Video Format: IP Network Output; H.265/H.264
+Visible Light Camera: Resolution: 2 MP / 4 MP Lens: 8~320mm Lens control: Electric zoom, auto focus Interface and Video Format: IP Network Output; H.265/H.264
+Visible Light Camera: Resolu`} source="Baolu Tech" />
+        <ProductCard name="AX-BRCVehicle Mounted Rugged Camera" description="High-performance EO/IR camera system for long-range surveillance and security applications" specs={`Day:2000m; Night:1000m
+Visible Light Camera: 1/2.8''B&W Sony CCD, 2MP, 1920X1080,automatic ICR switch
+Visible Light Camera: Lens: 141mm/180mm/240mm/330mm (optional)
+Visible Light Camera: Min.llumination：0.005lux B/W 0.05lux Color
+Laser Illuminator: Consumption:5W ，808nm , NIR
+Laser Illuminator: Laser Lens:30 mm F1.4 telephoto lens GHT-II homogenizing
+Laser Illuminator: Laser Angle: 1.2 ° ~ 40 °
+La`} source="Baolu Tech" />
+        <ProductCard name="AX-TRC Muti Sensor PTZ Camera" description="High-performance EO/IR camera system for long-range surveillance and security applications" specs={`Detection Distance: Vehicle: 17400m Human: 6800m
+Recognition Distance: Vehicle: 4800m Human: 1800m
+Thermal Camera: Detector: uncooled FPA VOx Resolution: 640*512/1280*1024
+Thermal Camera: Lens:75mm/105mm/155mm/190mm/ 230mm optional
+Visible Light Camera: Sensor: Back-illuminated ultra-low illumination starlight CMOS
+Visible Light Camera: Lens: 320mm/500mm/800mm/1000mm
+Laser Illuminator: Wavelength:`} source="Baolu Tech" />
+        <ProductCard name="AX-BTVC Dual Sensor PTZ Camera" description="High-performance EO/IR camera system for long-range surveillance and security applications" specs={`Detection Distance: Vehicle: 8600m Human: 3400m
+Recognition Distance: Vehicle: 2400m Human: 900m
+Thermal Camera: Detector: uncooled FPA VOx Resolution: 384*288/640*512
+Thermal Camera: Lens:50mm/75mm/105mm optional
+Visible Light Camera: 1/2.8'' CMOS, HD 2.1 MP, 1920X1080, Auto ICR switch,color to B/W mode
+Visible Light Camera: Lens: 141mm/180mm/240mm/330mm (optional)
+Rotate Range: Level： 0 ° ~ 360 `} source="Baolu Tech" />
+        <ProductCard name="AX-DTVC Dual Sensor DomeThermal Camera" description="High-performance EO/IR camera system for long-range surveillance and security applications" specs={`Detection Distance: Vehicle: 4200m Human: 1640m
+Recognition Distance: Vehicle: 1200m Human: 600m
+Thermal Camera: Detector: uncooled FPA VOx
+Thermal Camera: Resolution: 640*512/384*288
+Thermal Camera: Lens: 20mm/30mm/50mm
+Thermal Camera: NETD: 50mK
+Visible Light Camera: Sensor: Back-illuminated ultra-low illumination starlight CMOS
+Visible Light Camera: Lens: 5.5mm ～ 180mm
+Smart Function: Hot spot `} source="Baolu Tech" />
+        <ProductCard name="AX-TC Long RangeThermal ImagingCamera" description="High-performance EO/IR camera system for long-range surveillance and security applications" specs={`Detection Distance: Vehicle: 22000m Human: 18000m
+Recognition Distance: Vehicle:15000m Human: 9000m
+Uncooled Thermal Camera: Detector: uncooled FPA VOx
+Uncooled Thermal Camera: Resolution:640*512/1280*1024
+Uncooled Thermal Camera: Lens:75mm/105mm/155mm/190mm/ 230mm optional
+Uncooled Thermal Camera: NETD: 50mK
+Cooled Thermal Camera (operational): Detector: MWIR MCT detector Resolution：640*512 Lens `} source="Baolu Tech" />
+        <ProductCard name="AX-TTVC Dual sensor Intelligent camera" description="High-performance EO/IR camera system for long-range surveillance and security applications" specs={`Detection Distance: Vehicle: 17400m, Human: 6800m Fire Detection:10km (@2 ×2m)
+Recognition Distance: Vehicle: 4800m, Human: 1800m
+Thermal Camera: Detector: UFPA VOx detector Resolution:640*512/1280*1024 Lens:75mm/105mm/155mm/190mm/ 230mm optional
+Visible Light Camera: Sensor: Back-illuminated ultra-low illumination starlight CMOS Lens: 320mm/500mm/800mm/1000mm optional
+Intelligent Analysis Functio`} source="Baolu Tech" />
+        <ProductCard name="AX-DMS Multi-Optical IoTSmartCamera" description="High-performance EO/IR camera system for long-range surveillance and security applications" specs={`Detection Distance: Vehicle: 8400m, Human: 3280m Fire Detection:5000m (@2 ×2m)
+Recognition Distance: Vehicle: 2400m, Human: 1000m
+Thermal Camera: Detector: UFPA VOx detector Resolution: 384*288/640*512 Lens : 50mm/75mm/100mm optional
+Visible Light Camera: Sensor: Back-illuminated ultra-low illumination starlight CMOS Lens: 7 ～ 330mm
+Laser Illuminator: Light source Latest infrared GHT-III HD laser `} source="Baolu Tech" />
+        <ProductCard name="AX-RC Intelligent Traffic PTZ Camera" description="High-performance EO/IR camera system for long-range surveillance and security applications" specs={`Detection Distance: Night: Max.4500m, Day: Max.15000m
+Visbile Light Camera: Sensor： Back-illuminated ultra-low illumination starlight CMOS Lens: 320mm/500mm/800mm/1000mm
+Laser Illuminator: 940nm 10W/12W/15W/20W
+Laser Illuminator: Latest infrared GHT-III HD laser homogenization light source, 600μm cross-sectional imaging lens, multi- layer near infrared antireflection coating, high-efficiency laser`} source="Baolu Tech" />
+        <ProductCard name="AX-TTVC Dual Sensor Intelligent Camera" description="High-performance EO/IR camera system for long-range surveillance and security applications" specs={`Night: Max.4500m, Day: Max.15000m
+Thermal Camera: 940nm 10W/12W/15W/20W
+Thermal Camera: Latest infrared GHT-III HD laser homogenization light source, 600μm cross-sectional imaging lens, multi- layer near infrared antireflection coating, high-efficiency laser coupling
+Thermal Camera: Latest infrared GHT-III HD laser homogenization light source, 600μm cross-sectional imaging lens, multi- layer near `} source="Baolu Tech" />
+        <ProductCard name="AX-HTS Temperature Measurement Screening Software" description="High-performance EO/IR camera system for long-range surveillance and security applications" specs={`Use infrared non-contact body temperature detection to reduce the risk of cross-infection
+Can detect multiple people/livestock at the same time, the detection time is less than 1 second
+High-precision non-contact accuracy better than ±0.3℃
+With automatic temperature detection and calibration function, high stability long-term temperature measurement
+Real-time Display: Large-scene high-resolution i`} source="Baolu Tech" />
+        <ProductCard name="AX-BLB Black Body" description="High-performance EO/IR camera system for long-range surveillance and security applications" specs={`Operating Temperature: 35℃ -42℃ (room temp. requires 22℃ )
+Control Method: PID automatic control
+Temperature Resolution: 0.1℃
+Radiating Surface: 80mm*80mm
+Muzzle Firing Rate: ≥ 0.95
+Temperature Stability: ±0.3℃
+Temperature Uniformity: ≤ 0.15℃
+Power Supply: 220V AC
+2 KG
+Dimensions: 195mm×150mm×160mm`} source="Baolu Tech" />
+      </div>
+      <div class="text-center mt-12 pt-8 border-t border-baolu-blue/20">
+        <p class="text-baolu-gray mb-4">Looking for a specific EO/IR solution?</p>
+        <a href="/contact" class="inline-flex items-center px-8 py-4 rounded-lg bg-baolu-accent text-white font-semibold text-lg hover:bg-baolu-accent/90 transition-colors">Contact Our EO/IR Specialists</a>
+      </div>
+    </div>
+  </section>
+</Layout>

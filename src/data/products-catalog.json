@@ -2895,5 +2895,332 @@
         "Anti Drone"
       ]
     }
+  ],
+  "eoir": [
+    {
+      "source": "brochure.docx",
+      "company": "",
+      "product_name": "AX-HTVC Dual Sensor Intelligent Camera",
+      "description": "",
+      "specifications": "Detection Distance: Vehicle: 18000m Human: 8000m\nRecognition Distance: Vehicle: 6000m Human: 2600m\nThermal Camera: Uncooled FPA VOx detector\nThermal Camera: Resolution: 640*512 / 384*288\nThermal Camera: Lens: 75mm/105mm/155mm/190mm/ 230mm/300mm optional\nVisible Light Camera: Resolution: 2 MP / 4 MP Lens focal length: 320mm/500mm/800mm/1000mm Lens control: electric zoom, auto focus Interface and video format: IP network output, H.265/H.264\nVisible Light Camera: Resolution: 2 MP / 4 MP Lens focal length: 320mm/500mm/800mm/1000mm Lens control: electric zoom, auto focus Interface and video format: IP network output, H.265/H.264\nIntelligent Analysis: Temperature display function, hot spot alarm, motion detection / intrusion / cross-line / entering/ leaving / hovering / gathering / fast moving / blocking/tracking\nEnhanced Function: Strong light protection, temperature correction, scene mode ，auto focus, day and night cruise , parameter setting, remote maintenance\n50kg PTZ Range: Level 0 ～ 360 ° Pitch -4 5 ° ~ +4 5 ° Speed: Level 0.01 ° /s ～ 30 ° /s Pitch 0.01 ° /s ～ 15 ° /s\n50kg PTZ Range: Level 0 ～ 360 ° Pitch -4 5 ° ~ +4 5 ° Speed: Level 0.01 ° /s ～ 30 ° /s Pitch 0.01 ° /s ～ 15 ° /s\n50kg PTZ Range: Level 0 ～ 360 ° Pitch -4 5 ° ~ +4 5 ° Speed: Level 0.01 ° /s ～ 30 ° /s Pitch 0.01 ° /s ～ 15 ° /s\nElectrical Interface: 1 * RJ45, 1 * DC24V 10/100M adaptive Ethernet port Alloy waterproof aviation plug\nEnvironmental Indicators: Working temperature: -35℃ ~ +55℃ (-40℃ ~ +60℃ optional ), IP66",
+      "raw_specs": [
+        "Detection Distance: Vehicle: 18000m Human: 8000m",
+        "Recognition Distance: Vehicle: 6000m Human: 2600m",
+        "Thermal Camera: Uncooled FPA VOx detector",
+        "Thermal Camera: Resolution: 640*512 / 384*288",
+        "Thermal Camera: Lens: 75mm/105mm/155mm/190mm/ 230mm/300mm optional",
+        "Visible Light Camera: Resolution: 2 MP / 4 MP Lens focal length: 320mm/500mm/800mm/1000mm Lens control: electric zoom, auto focus Interface and video format: IP network output, H.265/H.264",
+        "Visible Light Camera: Resolution: 2 MP / 4 MP Lens focal length: 320mm/500mm/800mm/1000mm Lens control: electric zoom, auto focus Interface and video format: IP network output, H.265/H.264",
+        "Intelligent Analysis: Temperature display function, hot spot alarm, motion detection / intrusion / cross-line / entering/ leaving / hovering / gathering / fast moving / blocking/tracking",
+        "Enhanced Function: Strong light protection, temperature correction, scene mode ，auto focus, day and night cruise , parameter setting, remote maintenance",
+        "50kg PTZ Range: Level 0 ～ 360 ° Pitch -4 5 ° ~ +4 5 ° Speed: Level 0.01 ° /s ～ 30 ° /s Pitch 0.01 ° /s ～ 15 ° /s",
+        "50kg PTZ Range: Level 0 ～ 360 ° Pitch -4 5 ° ~ +4 5 ° Speed: Level 0.01 ° /s ～ 30 ° /s Pitch 0.01 ° /s ～ 15 ° /s",
+        "50kg PTZ Range: Level 0 ～ 360 ° Pitch -4 5 ° ~ +4 5 ° Speed: Level 0.01 ° /s ～ 30 ° /s Pitch 0.01 ° /s ～ 15 ° /s",
+        "Electrical Interface: 1 * RJ45, 1 * DC24V 10/100M adaptive Ethernet port Alloy waterproof aviation plug",
+        "Environmental Indicators: Working temperature: -35℃ ~ +55℃ (-40℃ ~ +60℃ optional ), IP66"
+      ]
+    },
+    {
+      "source": "brochure.docx",
+      "company": "",
+      "product_name": "AX-Z50 Multi-Sensor Intelligent Camera",
+      "description": "",
+      "specifications": "Detection Distance: Vehicle: 19000m Human: 12000m\nRecognition Distance: Vehicle: 9000m Human: 4500m\nUncooled Thermal Camera: Detector: uncooled FPA VOx detector Resolution: 640*512/1280*1024 Lens : 105mm/155mm/190mm optional\nCooled Thermal Camera (optional): Detector: Medium wave refrigerated mercury cadmium telluride (MCT) infrared focal plane Resolution: 640*512 Lens focal length: 22 ～ 450mm lens\nCooled Thermal Camera (optional): Detector: Medium wave refrigerated mercury cadmium telluride (MCT) infrared focal plane Resolution: 640*512 Lens focal length: 22 ～ 450mm lens\nVisible Light Camera: Resolution: 2 MP / 4 MP Lens focal length: 320mm/500mm/800mm/1000mm Lens control: electric zoom, auto focus Interface and video format: IP network output, H.265/H.264\nLaser Illuminator: Wavelength: 808nm/940nm Power: 8W/10W/15W/20W\nRotation Range: Level: N*360 ° (continuous); Pitch: -9 0 ° ~  + 9 0 °\nRotation Speed: Level: 0.01 ° ~ 80 ° / s; Pitch: 0.01 ° ~ 60 ° / s\nData Feedback: Support real-time/query return and positioning functions for level and pitch angles\nSize& Weight: Ф480mm×H825mm Total weight: ≤ 85kg (including load)\nElectrical Interface: 1*10M/100M adaptive Ethernet port 1* DC48V Military-grade aviation waterproof plug",
+      "raw_specs": [
+        "Detection Distance: Vehicle: 19000m Human: 12000m",
+        "Recognition Distance: Vehicle: 9000m Human: 4500m",
+        "Uncooled Thermal Camera: Detector: uncooled FPA VOx detector Resolution: 640*512/1280*1024 Lens : 105mm/155mm/190mm optional",
+        "Cooled Thermal Camera (optional): Detector: Medium wave refrigerated mercury cadmium telluride (MCT) infrared focal plane Resolution: 640*512 Lens focal length: 22 ～ 450mm lens",
+        "Cooled Thermal Camera (optional): Detector: Medium wave refrigerated mercury cadmium telluride (MCT) infrared focal plane Resolution: 640*512 Lens focal length: 22 ～ 450mm lens",
+        "Visible Light Camera: Resolution: 2 MP / 4 MP Lens focal length: 320mm/500mm/800mm/1000mm Lens control: electric zoom, auto focus Interface and video format: IP network output, H.265/H.264",
+        "Laser Illuminator: Wavelength: 808nm/940nm Power: 8W/10W/15W/20W",
+        "Rotation Range: Level: N*360 ° (continuous); Pitch: -9 0 ° ~  + 9 0 °",
+        "Rotation Speed: Level: 0.01 ° ~ 80 ° / s; Pitch: 0.01 ° ~ 60 ° / s",
+        "Data Feedback: Support real-time/query return and positioning functions for level and pitch angles",
+        "Size& Weight: Ф480mm×H825mm Total weight: ≤ 85kg (including load)",
+        "Electrical Interface: 1*10M/100M adaptive Ethernet port 1* DC48V Military-grade aviation waterproof plug"
+      ]
+    },
+    {
+      "source": "brochure.docx",
+      "company": "",
+      "product_name": "AX-ZS20 GIS Gyro Mini PTZ Camera",
+      "description": "",
+      "specifications": "Detection ≥ 20km for ship Recognition ≥ 10km for ship\nVisible Light Camera: Resolution: 2 MP / 4 MP Lens: 8~320mm Lens control: Electric zoom, auto focus Interface and Video Format: IP Network Output; H.265/H.264\nVisible Light Camera: Resolution: 2 MP / 4 MP Lens: 8~320mm Lens control: Electric zoom, auto focus Interface and Video Format: IP Network Output; H.265/H.264\nVisible Light Camera: Resolution: 2 MP / 4 MP Lens: 8~320mm Lens control: Electric zoom, auto focus Interface and Video Format: IP Network Output; H.265/H.264\nCooled Thermal Camera (optional): Detector: MWIR MCT detector Resolution：640*512 Lens : 300mm zoom lens\nCooled Thermal Camera (optional): Detector: MWIR MCT detector Resolution：640*512 Lens : 300mm zoom lens\nCooled Thermal Camera (optional): Detector: MWIR MCT detector Resolution：640*512 Lens : 300mm zoom lens\nUncooled Thermal Camera: Detector: uncooled FPA VOx Resolution:640*512 Lens: 50mm/75mm/100mm continuous zoom lens\nUncooled Thermal Camera: Detector: uncooled FPA VOx Resolution:640*512 Lens: 50mm/75mm/100mm continuous zoom lens\nLaser Illuminator: Wave length：808nm Consumption：5W\nLaser Range Finder: Range: 50 ~ 3000m/5000m optional Accuracy: ± 3m, frequency: 0.2 Hz, Wave length: 1570nm\nLaser Range Finder: Range: 50 ~ 3000m/5000m optional Accuracy: ± 3m, frequency: 0.2 Hz, Wave length: 1570nm\nRotation Range: Level: N* 360 ° (continuous) Pitch: -90 ° ~ + 90 °\nRotation Speed: Level: 0.01 ° ~ 100 ° / s Pitch: 0.01 ° ~ 80 ° / s\nGyro Stabilization: 2- axis, ＜ 0. 1 ° RMS\nSize and Weight: Ф280mm×H430mm Total weight: ≤ 18kg (including load)\nEnvironmental Indicators: Working temperature: -35℃ ~ +55℃ (-40℃ ~ +60℃ optional ), IP67",
+      "raw_specs": [
+        "Detection ≥ 20km for ship Recognition ≥ 10km for ship",
+        "Visible Light Camera: Resolution: 2 MP / 4 MP Lens: 8~320mm Lens control: Electric zoom, auto focus Interface and Video Format: IP Network Output; H.265/H.264",
+        "Visible Light Camera: Resolution: 2 MP / 4 MP Lens: 8~320mm Lens control: Electric zoom, auto focus Interface and Video Format: IP Network Output; H.265/H.264",
+        "Visible Light Camera: Resolution: 2 MP / 4 MP Lens: 8~320mm Lens control: Electric zoom, auto focus Interface and Video Format: IP Network Output; H.265/H.264",
+        "Cooled Thermal Camera (optional): Detector: MWIR MCT detector Resolution：640*512 Lens : 300mm zoom lens",
+        "Cooled Thermal Camera (optional): Detector: MWIR MCT detector Resolution：640*512 Lens : 300mm zoom lens",
+        "Cooled Thermal Camera (optional): Detector: MWIR MCT detector Resolution：640*512 Lens : 300mm zoom lens",
+        "Uncooled Thermal Camera: Detector: uncooled FPA VOx Resolution:640*512 Lens: 50mm/75mm/100mm continuous zoom lens",
+        "Uncooled Thermal Camera: Detector: uncooled FPA VOx Resolution:640*512 Lens: 50mm/75mm/100mm continuous zoom lens",
+        "Laser Illuminator: Wave length：808nm Consumption：5W",
+        "Laser Range Finder: Range: 50 ~ 3000m/5000m optional Accuracy: ± 3m, frequency: 0.2 Hz, Wave length: 1570nm",
+        "Laser Range Finder: Range: 50 ~ 3000m/5000m optional Accuracy: ± 3m, frequency: 0.2 Hz, Wave length: 1570nm",
+        "Rotation Range: Level: N* 360 ° (continuous) Pitch: -90 ° ~ + 90 °",
+        "Rotation Speed: Level: 0.01 ° ~ 100 ° / s Pitch: 0.01 ° ~ 80 ° / s",
+        "Gyro Stabilization: 2- axis, ＜ 0. 1 ° RMS",
+        "Size and Weight: Ф280mm×H430mm Total weight: ≤ 18kg (including load)",
+        "Environmental Indicators: Working temperature: -35℃ ~ +55℃ (-40℃ ~ +60℃ optional ), IP67"
+      ]
+    },
+    {
+      "source": "brochure.docx",
+      "company": "",
+      "product_name": "AX-BRCVehicle Mounted Rugged Camera",
+      "description": "",
+      "specifications": "Day:2000m; Night:1000m\nVisible Light Camera: 1/2.8''B&W Sony CCD, 2MP, 1920X1080,automatic ICR switch\nVisible Light Camera: Lens: 141mm/180mm/240mm/330mm (optional)\nVisible Light Camera: Min.llumination：0.005lux B/W 0.05lux Color\nLaser Illuminator: Consumption:5W ，808nm , NIR\nLaser Illuminator: Laser Lens:30 mm F1.4 telephoto lens GHT-II homogenizing\nLaser Illuminator: Laser Angle: 1.2 ° ~ 40 °\nLaser Illuminator: DSS digital illumination control min 0.1° illumination zooming, manual / automatic\nLaser Illuminator: 0.01 ° SLM automatic axis automatic aiming and locking\nRJ45 ，10M/100M adaptive Ethernet， TCP/IP ， RTP/ RTCP ， HTTP\nCompatibility: Support ONVIF\nPreset: ≥ 255\nRotation Range: Level: 0 ° ~ 360 ° ( continuous) Pitch:-90 ° ~ + 90 °\nRotation Speed: Level: 0 ° ~ 100 ° / s Pitch: 0 ° ~80 ° / s\nPower Supply: AC24V/2.5A ， DC12V/3.5A, common ≤ 40W, peak ≤ 60W\nSize and Weight: 400mm×280mm ≤ 7kg\nWorking temperature: -35℃ ~ +55℃ (-40℃ ~ +60℃ optional ), IP67: Working temperature: -35℃ ~ +55℃ (-40℃ ~ +60℃ optional ), IP66",
+      "raw_specs": [
+        "Day:2000m; Night:1000m",
+        "Visible Light Camera: 1/2.8''B&W Sony CCD, 2MP, 1920X1080,automatic ICR switch",
+        "Visible Light Camera: Lens: 141mm/180mm/240mm/330mm (optional)",
+        "Visible Light Camera: Min.llumination：0.005lux B/W 0.05lux Color",
+        "Laser Illuminator: Consumption:5W ，808nm , NIR",
+        "Laser Illuminator: Laser Lens:30 mm F1.4 telephoto lens GHT-II homogenizing",
+        "Laser Illuminator: Laser Angle: 1.2 ° ~ 40 °",
+        "Laser Illuminator: DSS digital illumination control min 0.1° illumination zooming, manual / automatic",
+        "Laser Illuminator: 0.01 ° SLM automatic axis automatic aiming and locking",
+        "RJ45 ，10M/100M adaptive Ethernet， TCP/IP ， RTP/ RTCP ， HTTP",
+        "Compatibility: Support ONVIF",
+        "Preset: ≥ 255",
+        "Rotation Range: Level: 0 ° ~ 360 ° ( continuous) Pitch:-90 ° ~ + 90 °",
+        "Rotation Speed: Level: 0 ° ~ 100 ° / s Pitch: 0 ° ~80 ° / s",
+        "Power Supply: AC24V/2.5A ， DC12V/3.5A, common ≤ 40W, peak ≤ 60W",
+        "Size and Weight: 400mm×280mm ≤ 7kg",
+        "Working temperature: -35℃ ~ +55℃ (-40℃ ~ +60℃ optional ), IP67: Working temperature: -35℃ ~ +55℃ (-40℃ ~ +60℃ optional ), IP66"
+      ]
+    },
+    {
+      "source": "brochure.docx",
+      "company": "",
+      "product_name": "AX-DMA Anti-UAV Automatic Defense Surveillance System",
+      "description": "",
+      "specifications": "Recognize Distance: 1500m for UAV (30cm*30cm size )\nUncooled Thermal Camera: Detector: Long-wave uncooled FPA VOx detector Resolution: 640*512/1280*1024 Lens : 75mm/105mm/155mm/190mm optional\nCooled Thermal Camera (optional): Detector: MWIR MCT detector Resolution：640*512 Lens : 300mm continuous zoom lens\nVisible Light Camera: Resolution: 2 MP / 4 MP Lens : 320mm/500mm/800mm/1000mm optional Lens Control: electric zoom, manual/auto focus\nLaser Illuminator: Range: 808nm/940nm optional Consumption: 8W/10W/15W optional\nLaser Range Finder: Ranging range: 50 ～ 3000m, 50 ～ 5000m, 100 ～ 8000m optional Ranging accuracy: ±3m; Frequency: 0.2Hz; Wavelength: 1570nm Interface: RS422 control\nRotation Range: Level: N* 360 ° ( continuous); Pitch: -90 ° ~ +90 °\nRotation Speed: Level: 0.01 ° ~ 80 ° / s; Pitch: 0.01 ° ~ 60 ° / s Acceleration: Level: 100° / s2 ; Pitch: 100 ° /s 2\nPositioning Accuracy: 0.02 °\nTurntable Zero Position: Zero setting (horizontal, pitch); automatic north; automatic zero adjustment\nCruise Scan: ≥ 255 presets, auto homing / line scan / cruise\nFeedback: Support real-time / query return and positioning functions of level and pitch angles\nTrack Mode: Manual control tracking, radar linkage automatic tracking Front-end module automatic tracking, back-end software automatic tracking\nElectrical Interface: 1 *10M/100M adaptive Ethernet port; 1* DC48V Military-grade aviation waterproof plug\nDimensions: 235mm×320mm×370mm\nEnvironmental Indicators: Working temperature: -35℃ ~ +55℃ (-40℃ ~ +60℃ optional ), IP66",
+      "raw_specs": [
+        "Recognize Distance: 1500m for UAV (30cm*30cm size )",
+        "Uncooled Thermal Camera: Detector: Long-wave uncooled FPA VOx detector Resolution: 640*512/1280*1024 Lens : 75mm/105mm/155mm/190mm optional",
+        "Cooled Thermal Camera (optional): Detector: MWIR MCT detector Resolution：640*512 Lens : 300mm continuous zoom lens",
+        "Visible Light Camera: Resolution: 2 MP / 4 MP Lens : 320mm/500mm/800mm/1000mm optional Lens Control: electric zoom, manual/auto focus",
+        "Laser Illuminator: Range: 808nm/940nm optional Consumption: 8W/10W/15W optional",
+        "Laser Range Finder: Ranging range: 50 ～ 3000m, 50 ～ 5000m, 100 ～ 8000m optional Ranging accuracy: ±3m; Frequency: 0.2Hz; Wavelength: 1570nm Interface: RS422 control",
+        "Rotation Range: Level: N* 360 ° ( continuous); Pitch: -90 ° ~ +90 °",
+        "Rotation Speed: Level: 0.01 ° ~ 80 ° / s; Pitch: 0.01 ° ~ 60 ° / s Acceleration: Level: 100° / s2 ; Pitch: 100 ° /s 2",
+        "Positioning Accuracy: 0.02 °",
+        "Turntable Zero Position: Zero setting (horizontal, pitch); automatic north; automatic zero adjustment",
+        "Cruise Scan: ≥ 255 presets, auto homing / line scan / cruise",
+        "Feedback: Support real-time / query return and positioning functions of level and pitch angles",
+        "Track Mode: Manual control tracking, radar linkage automatic tracking Front-end module automatic tracking, back-end software automatic tracking",
+        "Electrical Interface: 1 *10M/100M adaptive Ethernet port; 1* DC48V Military-grade aviation waterproof plug",
+        "Dimensions: 235mm×320mm×370mm",
+        "Environmental Indicators: Working temperature: -35℃ ~ +55℃ (-40℃ ~ +60℃ optional ), IP66"
+      ]
+    },
+    {
+      "source": "brochure.docx",
+      "company": "",
+      "product_name": "AX-TRC Muti Sensor PTZ Camera",
+      "description": "",
+      "specifications": "Detection Distance: Vehicle: 17400m Human: 6800m\nRecognition Distance: Vehicle: 4800m Human: 1800m\nThermal Camera: Detector: uncooled FPA VOx Resolution: 640*512/1280*1024\nThermal Camera: Lens:75mm/105mm/155mm/190mm/ 230mm optional\nVisible Light Camera: Sensor: Back-illuminated ultra-low illumination starlight CMOS\nVisible Light Camera: Lens: 320mm/500mm/800mm/1000mm\nLaser Illuminator: Wavelength: 810nm\nLaser Illuminator: Consumption: 8W/10W/12W/15W/20W\nIntelligent Function: Intelligent Analysis: intrusion detection, cross-line detection,entry/exit detection, automatic follow-up tracking, intelligent information overlay, sound and light alarm, privacy mask, alarm management\nIntelligent Function: Intelligent Analysis: intrusion detection, cross-line detection,entry/exit detection, automatic follow-up tracking, intelligent information overlay, sound and light alarm, privacy mask, alarm management\n50kg load\nRange: Level: 0 ° ~ 360 ° Pitch :- 4 5 ° ~ +4 5 °\nSpeed: Level: 0.01 ° /s ～ 30 ° /s Pitch: 0.01 ° /s ～ 15 ° /s\nPreset ≥ 255\nElectrical Interface: 1 *RJ45, 10/100M adaptive Ethernet port; 1 * DC24V Alloy waterproof aviation plug\nEnvironmental Indicators: Working temperature: -35℃ ~ +55℃ (-40℃ ~ +60℃ optional ), IP66",
+      "raw_specs": [
+        "Detection Distance: Vehicle: 17400m Human: 6800m",
+        "Recognition Distance: Vehicle: 4800m Human: 1800m",
+        "Thermal Camera: Detector: uncooled FPA VOx Resolution: 640*512/1280*1024",
+        "Thermal Camera: Lens:75mm/105mm/155mm/190mm/ 230mm optional",
+        "Visible Light Camera: Sensor: Back-illuminated ultra-low illumination starlight CMOS",
+        "Visible Light Camera: Lens: 320mm/500mm/800mm/1000mm",
+        "Laser Illuminator: Wavelength: 810nm",
+        "Laser Illuminator: Consumption: 8W/10W/12W/15W/20W",
+        "Intelligent Function: Intelligent Analysis: intrusion detection, cross-line detection,entry/exit detection, automatic follow-up tracking, intelligent information overlay, sound and light alarm, privacy mask, alarm management",
+        "Intelligent Function: Intelligent Analysis: intrusion detection, cross-line detection,entry/exit detection, automatic follow-up tracking, intelligent information overlay, sound and light alarm, privacy mask, alarm management",
+        "50kg load",
+        "Range: Level: 0 ° ~ 360 ° Pitch :- 4 5 ° ~ +4 5 °",
+        "Speed: Level: 0.01 ° /s ～ 30 ° /s Pitch: 0.01 ° /s ～ 15 ° /s",
+        "Preset ≥ 255",
+        "Electrical Interface: 1 *RJ45, 10/100M adaptive Ethernet port; 1 * DC24V Alloy waterproof aviation plug",
+        "Environmental Indicators: Working temperature: -35℃ ~ +55℃ (-40℃ ~ +60℃ optional ), IP66"
+      ]
+    },
+    {
+      "source": "brochure.docx",
+      "company": "",
+      "product_name": "AX-BTVC Dual Sensor PTZ Camera",
+      "description": "",
+      "specifications": "Detection Distance: Vehicle: 8600m Human: 3400m\nRecognition Distance: Vehicle: 2400m Human: 900m\nThermal Camera: Detector: uncooled FPA VOx Resolution: 384*288/640*512\nThermal Camera: Lens:50mm/75mm/105mm optional\nVisible Light Camera: 1/2.8'' CMOS, HD 2.1 MP, 1920X1080, Auto ICR switch,color to B/W mode\nVisible Light Camera: Lens: 141mm/180mm/240mm/330mm (optional)\nRotate Range: Level： 0 ° ~ 360 ° continuous Pitch: -90 ° ~ + 90 °\nRotation Speed: Level: 0 ° ~ 100 ° / s Pitch: 0 ° ~80 ° / s\nProtocol: Pelco-D/P and other main protocols\nScan: 3(user can set the starting and end point; adjustable scanning speed; )\nPath: 6(16 points for each path, adjustable duration on each point)\nMenu: English/Spanish\nAuto Homing: Homing time(1-99mins), homing action(preset/scanning/path/pattern)\nPreset: ≥ 255\nElectrical Interface: 1 *RJ45, 10/100M adaptive Ethernet port; AC24V/2.5A Alloy waterproof aviation plug",
+      "raw_specs": [
+        "Detection Distance: Vehicle: 8600m Human: 3400m",
+        "Recognition Distance: Vehicle: 2400m Human: 900m",
+        "Thermal Camera: Detector: uncooled FPA VOx Resolution: 384*288/640*512",
+        "Thermal Camera: Lens:50mm/75mm/105mm optional",
+        "Visible Light Camera: 1/2.8'' CMOS, HD 2.1 MP, 1920X1080, Auto ICR switch,color to B/W mode",
+        "Visible Light Camera: Lens: 141mm/180mm/240mm/330mm (optional)",
+        "Rotate Range: Level： 0 ° ~ 360 ° continuous Pitch: -90 ° ~ + 90 °",
+        "Rotation Speed: Level: 0 ° ~ 100 ° / s Pitch: 0 ° ~80 ° / s",
+        "Protocol: Pelco-D/P and other main protocols",
+        "Scan: 3(user can set the starting and end point; adjustable scanning speed; )",
+        "Path: 6(16 points for each path, adjustable duration on each point)",
+        "Menu: English/Spanish",
+        "Auto Homing: Homing time(1-99mins), homing action(preset/scanning/path/pattern)",
+        "Preset: ≥ 255",
+        "Electrical Interface: 1 *RJ45, 10/100M adaptive Ethernet port; AC24V/2.5A Alloy waterproof aviation plug"
+      ]
+    },
+    {
+      "source": "brochure.docx",
+      "company": "",
+      "product_name": "AX-DTVC Dual Sensor DomeThermal Camera",
+      "description": "",
+      "specifications": "Detection Distance: Vehicle: 4200m Human: 1640m\nRecognition Distance: Vehicle: 1200m Human: 600m\nThermal Camera: Detector: uncooled FPA VOx\nThermal Camera: Resolution: 640*512/384*288\nThermal Camera: Lens: 20mm/30mm/50mm\nThermal Camera: NETD: 50mK\nVisible Light Camera: Sensor: Back-illuminated ultra-low illumination starlight CMOS\nVisible Light Camera: Lens: 5.5mm ～ 180mm\nSmart Function: Hot spot alarm/temperature display/ intrusion detection\nLens Control: Electric zoom; auto focus\nRange: Level 0 ~ 360 ° continuous\nSpeed: Level: 0. 1 ° ~ 120 ° / s, Pitch: 0. 1 ° ~ 100 ° /s\nPreset ≥ 255\nElectrical Interface: 1 *10M/100M adaptive Ethernet port; 1 * DC24V\nEnvironmental Indicators: Working temperature: -35℃ ~ +55℃ (-40℃ ~ +60℃ optional ), IP66",
+      "raw_specs": [
+        "Detection Distance: Vehicle: 4200m Human: 1640m",
+        "Recognition Distance: Vehicle: 1200m Human: 600m",
+        "Thermal Camera: Detector: uncooled FPA VOx",
+        "Thermal Camera: Resolution: 640*512/384*288",
+        "Thermal Camera: Lens: 20mm/30mm/50mm",
+        "Thermal Camera: NETD: 50mK",
+        "Visible Light Camera: Sensor: Back-illuminated ultra-low illumination starlight CMOS",
+        "Visible Light Camera: Lens: 5.5mm ～ 180mm",
+        "Smart Function: Hot spot alarm/temperature display/ intrusion detection",
+        "Lens Control: Electric zoom; auto focus",
+        "Range: Level 0 ~ 360 ° continuous",
+        "Speed: Level: 0. 1 ° ~ 120 ° / s, Pitch: 0. 1 ° ~ 100 ° /s",
+        "Preset ≥ 255",
+        "Electrical Interface: 1 *10M/100M adaptive Ethernet port; 1 * DC24V",
+        "Environmental Indicators: Working temperature: -35℃ ~ +55℃ (-40℃ ~ +60℃ optional ), IP66"
+      ]
+    },
+    {
+      "source": "brochure.docx",
+      "company": "",
+      "product_name": "AX-TC Long RangeThermal ImagingCamera",
+      "description": "",
+      "specifications": "Detection Distance: Vehicle: 22000m Human: 18000m\nRecognition Distance: Vehicle:15000m Human: 9000m\nUncooled Thermal Camera: Detector: uncooled FPA VOx\nUncooled Thermal Camera: Resolution:640*512/1280*1024\nUncooled Thermal Camera: Lens:75mm/105mm/155mm/190mm/ 230mm optional\nUncooled Thermal Camera: NETD: 50mK\nCooled Thermal Camera (operational): Detector: MWIR MCT detector Resolution：640*512 Lens : 300mm / 450mm / 660mm / 800mm /1100mm zoom lens NETD: 25mK\nCooled Thermal Camera (operational): Detector: MWIR MCT detector Resolution：640*512 Lens : 300mm / 450mm / 660mm / 800mm /1100mm zoom lens NETD: 25mK\nCooled Thermal Camera (operational): Detector: MWIR MCT detector Resolution：640*512 Lens : 300mm / 450mm / 660mm / 800mm /1100mm zoom lens NETD: 25mK\nLens Control: Electric zoom; auto focus\nRange: Level: 0 ° ~ 360 ° Pitch :- 4 5 ° ~ +4 5 °\nSpeed: Level: 0.01 ° /s ～ 30 ° /s Pitch: 0.01 ° /s ～ 15 ° /s\n50kg load Preset ≥ 255\nElectrical Interface: 1 *RJ45, 10/100M adaptive Ethernet port; 1 * DC24V Alloy waterproof aviation plug",
+      "raw_specs": [
+        "Detection Distance: Vehicle: 22000m Human: 18000m",
+        "Recognition Distance: Vehicle:15000m Human: 9000m",
+        "Uncooled Thermal Camera: Detector: uncooled FPA VOx",
+        "Uncooled Thermal Camera: Resolution:640*512/1280*1024",
+        "Uncooled Thermal Camera: Lens:75mm/105mm/155mm/190mm/ 230mm optional",
+        "Uncooled Thermal Camera: NETD: 50mK",
+        "Cooled Thermal Camera (operational): Detector: MWIR MCT detector Resolution：640*512 Lens : 300mm / 450mm / 660mm / 800mm /1100mm zoom lens NETD: 25mK",
+        "Cooled Thermal Camera (operational): Detector: MWIR MCT detector Resolution：640*512 Lens : 300mm / 450mm / 660mm / 800mm /1100mm zoom lens NETD: 25mK",
+        "Cooled Thermal Camera (operational): Detector: MWIR MCT detector Resolution：640*512 Lens : 300mm / 450mm / 660mm / 800mm /1100mm zoom lens NETD: 25mK",
+        "Lens Control: Electric zoom; auto focus",
+        "Range: Level: 0 ° ~ 360 ° Pitch :- 4 5 ° ~ +4 5 °",
+        "Speed: Level: 0.01 ° /s ～ 30 ° /s Pitch: 0.01 ° /s ～ 15 ° /s",
+        "50kg load Preset ≥ 255",
+        "Electrical Interface: 1 *RJ45, 10/100M adaptive Ethernet port; 1 * DC24V Alloy waterproof aviation plug"
+      ]
+    },
+    {
+      "source": "brochure.docx",
+      "company": "",
+      "product_name": "AX-TTVC Dual sensor Intelligent camera",
+      "description": "",
+      "specifications": "Detection Distance: Vehicle: 17400m, Human: 6800m Fire Detection:10km (@2 ×2m)\nRecognition Distance: Vehicle: 4800m, Human: 1800m\nThermal Camera: Detector: UFPA VOx detector Resolution:640*512/1280*1024 Lens:75mm/105mm/155mm/190mm/ 230mm optional\nVisible Light Camera: Sensor: Back-illuminated ultra-low illumination starlight CMOS Lens: 320mm/500mm/800mm/1000mm optional\nIntelligent Analysis Function: Temperature display function, hot spot alarm, motion detection/intrusion/ cross-line/entering/leaving/hovering/ gathering/fast moving/blocking/tracking\nEnhanced Function: Strong light protection, temperature correction, scene mode, Auto focus tuning, day and night cruise, Lens servo, parameter setting, remote maintenance\n50kg PTZ Range: Level 0 ～ 360 ° Pitch： -4 5 ° ~  +4 5 ° Speed: Level 0.01 ° /s ～ 30 ° /s Pitch：0.01 ° /s ～ 15 ° /s Preset ≥ 255\nElectrical Interface: 1 * RJ45, 10/100M adaptive Ethernet port; 1 * DC24V Alloy waterproof aviation plug\nProtection Level: IP66\nEnvironmental Indicators: Working temperature: -35℃ ~ +55℃ (-40℃ ~ +60℃ optional )",
+      "raw_specs": [
+        "Detection Distance: Vehicle: 17400m, Human: 6800m Fire Detection:10km (@2 ×2m)",
+        "Recognition Distance: Vehicle: 4800m, Human: 1800m",
+        "Thermal Camera: Detector: UFPA VOx detector Resolution:640*512/1280*1024 Lens:75mm/105mm/155mm/190mm/ 230mm optional",
+        "Visible Light Camera: Sensor: Back-illuminated ultra-low illumination starlight CMOS Lens: 320mm/500mm/800mm/1000mm optional",
+        "Intelligent Analysis Function: Temperature display function, hot spot alarm, motion detection/intrusion/ cross-line/entering/leaving/hovering/ gathering/fast moving/blocking/tracking",
+        "Enhanced Function: Strong light protection, temperature correction, scene mode, Auto focus tuning, day and night cruise, Lens servo, parameter setting, remote maintenance",
+        "50kg PTZ Range: Level 0 ～ 360 ° Pitch： -4 5 ° ~  +4 5 ° Speed: Level 0.01 ° /s ～ 30 ° /s Pitch：0.01 ° /s ～ 15 ° /s Preset ≥ 255",
+        "Electrical Interface: 1 * RJ45, 10/100M adaptive Ethernet port; 1 * DC24V Alloy waterproof aviation plug",
+        "Protection Level: IP66",
+        "Environmental Indicators: Working temperature: -35℃ ~ +55℃ (-40℃ ~ +60℃ optional )"
+      ]
+    },
+    {
+      "source": "brochure.docx",
+      "company": "",
+      "product_name": "AX-DMS Multi-Optical IoTSmartCamera",
+      "description": "",
+      "specifications": "Detection Distance: Vehicle: 8400m, Human: 3280m Fire Detection:5000m (@2 ×2m)\nRecognition Distance: Vehicle: 2400m, Human: 1000m\nThermal Camera: Detector: UFPA VOx detector Resolution: 384*288/640*512 Lens : 50mm/75mm/100mm optional\nVisible Light Camera: Sensor: Back-illuminated ultra-low illumination starlight CMOS Lens: 7 ～ 330mm\nLaser Illuminator: Light source Latest infrared GHT-III HD laser homogenization\nDimensions and Weight: 312 mm×200mm×296mm (length ×width × height) ≤ 10kg\nMicro PTZ: Rotation Angle: Level: 360 ° continuous rotation; Pitch: -9 0 ° ~  + 9 0 ° Rotation Speed: Level: 0.01 ° /s ～ 100 ° /s Pitch: 0.01 ° /s ～ 80 ° /s\nElectrical Interface: 1 * RJ45 10M/100M adaptive Ethernet port 2 *alarm inputs, 1 *alarm output 1 *audio input, 1 *RS485\nProtection Level: IP67",
+      "raw_specs": [
+        "Detection Distance: Vehicle: 8400m, Human: 3280m Fire Detection:5000m (@2 ×2m)",
+        "Recognition Distance: Vehicle: 2400m, Human: 1000m",
+        "Thermal Camera: Detector: UFPA VOx detector Resolution: 384*288/640*512 Lens : 50mm/75mm/100mm optional",
+        "Visible Light Camera: Sensor: Back-illuminated ultra-low illumination starlight CMOS Lens: 7 ～ 330mm",
+        "Laser Illuminator: Light source Latest infrared GHT-III HD laser homogenization",
+        "Dimensions and Weight: 312 mm×200mm×296mm (length ×width × height) ≤ 10kg",
+        "Micro PTZ: Rotation Angle: Level: 360 ° continuous rotation; Pitch: -9 0 ° ~  + 9 0 ° Rotation Speed: Level: 0.01 ° /s ～ 100 ° /s Pitch: 0.01 ° /s ～ 80 ° /s",
+        "Electrical Interface: 1 * RJ45 10M/100M adaptive Ethernet port 2 *alarm inputs, 1 *alarm output 1 *audio input, 1 *RS485",
+        "Protection Level: IP67"
+      ]
+    },
+    {
+      "source": "brochure.docx",
+      "company": "",
+      "product_name": "AX-RC Intelligent Traffic PTZ Camera",
+      "description": "",
+      "specifications": "Detection Distance: Night: Max.4500m, Day: Max.15000m\nVisbile Light Camera: Sensor： Back-illuminated ultra-low illumination starlight CMOS Lens: 320mm/500mm/800mm/1000mm\nLaser Illuminator: 940nm 10W/12W/15W/20W\nLaser Illuminator: Latest infrared GHT-III HD laser homogenization light source, 600μm cross-sectional imaging lens, multi- layer near infrared antireflection coating, high-efficiency laser coupling\nLaser Illuminator: Latest infrared GHT-III HD laser homogenization light source, 600μm cross-sectional imaging lens, multi- layer near infrared antireflection coating, high-efficiency laser coupling\nSmart Function: Latest analysis: intrusion detection, cross-line detection, entry/exit detection, automatic tracking, intelligent information overlay, sound and light alarm, privacy mask, alarm management\nDistance and Angle Matching: Automatic tracking/manual fine-tuning intelligent matching; DSS digital lighting angle control, with an accuracy of 0.1° ; Laser angle and imaging magnification matching algorithm; Laser synchronization effect adjustment switching mode; SLM double optical axis self-locking alignment, accuracy 0.01 °\nLoad: 30/50kg Range: Level 0 ～ 360 ° , pitch -45 ° ~ +45 ° Speed: Level 0.01 ° /s ～ 30 ° /s, pitch 0.0 1 ° /s ～ 15 ° /s Preset ≥ 255\nElectrical Interface: 1 * RJ45, 10/100M adaptive Ethernet port; 1 * DC24V Alloy waterproof aviation plug\nEnvironmental Indicators: Working temperature: -35℃ ~ +55℃ (-40℃ ~ +60℃ optional ) ，IP66",
+      "raw_specs": [
+        "Detection Distance: Night: Max.4500m, Day: Max.15000m",
+        "Visbile Light Camera: Sensor： Back-illuminated ultra-low illumination starlight CMOS Lens: 320mm/500mm/800mm/1000mm",
+        "Laser Illuminator: 940nm 10W/12W/15W/20W",
+        "Laser Illuminator: Latest infrared GHT-III HD laser homogenization light source, 600μm cross-sectional imaging lens, multi- layer near infrared antireflection coating, high-efficiency laser coupling",
+        "Laser Illuminator: Latest infrared GHT-III HD laser homogenization light source, 600μm cross-sectional imaging lens, multi- layer near infrared antireflection coating, high-efficiency laser coupling",
+        "Smart Function: Latest analysis: intrusion detection, cross-line detection, entry/exit detection, automatic tracking, intelligent information overlay, sound and light alarm, privacy mask, alarm management",
+        "Distance and Angle Matching: Automatic tracking/manual fine-tuning intelligent matching; DSS digital lighting angle control, with an accuracy of 0.1° ; Laser angle and imaging magnification matching algorithm; Laser synchronization effect adjustment switching mode; SLM double optical axis self-locking alignment, accuracy 0.01 °",
+        "Load: 30/50kg Range: Level 0 ～ 360 ° , pitch -45 ° ~ +45 ° Speed: Level 0.01 ° /s ～ 30 ° /s, pitch 0.0 1 ° /s ～ 15 ° /s Preset ≥ 255",
+        "Electrical Interface: 1 * RJ45, 10/100M adaptive Ethernet port; 1 * DC24V Alloy waterproof aviation plug",
+        "Environmental Indicators: Working temperature: -35℃ ~ +55℃ (-40℃ ~ +60℃ optional ) ，IP66"
+      ]
+    },
+    {
+      "source": "brochure.docx",
+      "company": "",
+      "product_name": "AX-TTVC Dual Sensor Intelligent Camera",
+      "description": "",
+      "specifications": "Night: Max.4500m, Day: Max.15000m\nThermal Camera: 940nm 10W/12W/15W/20W\nThermal Camera: Latest infrared GHT-III HD laser homogenization light source, 600μm cross-sectional imaging lens, multi- layer near infrared antireflection coating, high-efficiency laser coupling\nThermal Camera: Latest infrared GHT-III HD laser homogenization light source, 600μm cross-sectional imaging lens, multi- layer near infrared antireflection coating, high-efficiency laser coupling",
+      "raw_specs": [
+        "Night: Max.4500m, Day: Max.15000m",
+        "Thermal Camera: 940nm 10W/12W/15W/20W",
+        "Thermal Camera: Latest infrared GHT-III HD laser homogenization light source, 600μm cross-sectional imaging lens, multi- layer near infrared antireflection coating, high-efficiency laser coupling",
+        "Thermal Camera: Latest infrared GHT-III HD laser homogenization light source, 600μm cross-sectional imaging lens, multi- layer near infrared antireflection coating, high-efficiency laser coupling"
+      ]
+    },
+    {
+      "source": "brochure.docx",
+      "company": "",
+      "product_name": "AX-HTS Temperature Measurement Screening Software",
+      "description": "",
+      "specifications": "Use infrared non-contact body temperature detection to reduce the risk of cross-infection\nCan detect multiple people/livestock at the same time, the detection time is less than 1 second\nHigh-precision non-contact accuracy better than ±0.3℃\nWith automatic temperature detection and calibration function, high stability long-term temperature measurement\nReal-time Display: Large-scene high-resolution infrared imaging, accurately locking people/livestock with abnormal body temperature\nSmart Alarm: Support temperature threshold setting and automatic screening and early warning mechanism, real-time alarm for abnormal body temperature\nFull-time Work: It can realize 7 ×24 real-time rapid body temperature screening and early warning intervention\nCombined with the platform, it can realize the backtracking, analysis, mining of historical data\nScalable: The emergency command system can be linked to realize rapid response and real-time processing\nEasy To Deploy: Intelligent temperature measurement thermal imaging camera + ordinary PC constitutes a small temperature measurement station, which supports offline, online deployment\nEnvironmental Adaptation: It can be applied to scenes such as densely populated/breeding farms",
+      "raw_specs": [
+        "Use infrared non-contact body temperature detection to reduce the risk of cross-infection",
+        "Can detect multiple people/livestock at the same time, the detection time is less than 1 second",
+        "High-precision non-contact accuracy better than ±0.3℃",
+        "With automatic temperature detection and calibration function, high stability long-term temperature measurement",
+        "Real-time Display: Large-scene high-resolution infrared imaging, accurately locking people/livestock with abnormal body temperature",
+        "Smart Alarm: Support temperature threshold setting and automatic screening and early warning mechanism, real-time alarm for abnormal body temperature",
+        "Full-time Work: It can realize 7 ×24 real-time rapid body temperature screening and early warning intervention",
+        "Combined with the platform, it can realize the backtracking, analysis, mining of historical data",
+        "Scalable: The emergency command system can be linked to realize rapid response and real-time processing",
+        "Easy To Deploy: Intelligent temperature measurement thermal imaging camera + ordinary PC constitutes a small temperature measurement station, which supports offline, online deployment",
+        "Environmental Adaptation: It can be applied to scenes such as densely populated/breeding farms"
+      ]
+    },
+    {
+      "source": "brochure.docx",
+      "company": "",
+      "product_name": "AX-BLB Black Body",
+      "description": "",
+      "specifications": "Operating Temperature: 35℃ -42℃ (room temp. requires 22℃ )\nControl Method: PID automatic control\nTemperature Resolution: 0.1℃\nRadiating Surface: 80mm*80mm\nMuzzle Firing Rate: ≥ 0.95\nTemperature Stability: ±0.3℃\nTemperature Uniformity: ≤ 0.15℃\nPower Supply: 220V AC\n2 KG\nDimensions: 195mm×150mm×160mm",
+      "raw_specs": [
+        "Operating Temperature: 35℃ -42℃ (room temp. requires 22℃ )",
+        "Control Method: PID automatic control",
+        "Temperature Resolution: 0.1℃",
+        "Radiating Surface: 80mm*80mm",
+        "Muzzle Firing Rate: ≥ 0.95",
+        "Temperature Stability: ±0.3℃",
+        "Temperature Uniformity: ≤ 0.15℃",
+        "Power Supply: 220V AC",
+        "2 KG",
+        "Dimensions: 195mm×150mm×160mm"
+      ]
+    }
   ]
 }
