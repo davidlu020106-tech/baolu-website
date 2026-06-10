@@ -19,7 +19,7 @@ function isSectionHeader(line: string): boolean {
   // 长度 < 20 且没有常见标点 → 可能是标题
   if (t.length < 30 && !t.includes(',') && !t.includes('。') && !t.includes('；')) {
     // 排除纯数字/单位行
-    if (/^[\d\s\-.°%kms]+$/.test(t)) return false;
+    if (/^[\d\s.°%kms-]+$/.test(t)) return false;
     return true;
   }
   return false;
