@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://baolu-tech.com/sitemap-index.xml
